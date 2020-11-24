@@ -1,0 +1,111 @@
+.operations{
+  background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), $black;
+  box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+  padding: 0.9375rem 0.625rem;
+  margin-top: 1.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.operations__header{
+  display: flex;
+  align-items: center;
+}
+.operations__header-img{
+  padding-left: 0.6875rem;
+}
+.operations_btn{
+  font-family: 'Enigmo';
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  padding-left: 0.6875rem;
+  background-color: $black;
+  color: $gray;
+  border: none;
+}
+.operations__header-title{
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  padding-left: 0.6875rem;
+}
+.operations__header-arrow{
+padding-left: 0.6875rem;
+}
+.calendar__wrapper{
+  margin-left: 3.0625rem;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  span{
+    padding-right: 1.25rem;
+  }
+}
+.calendar__wrapper-img{
+  padding-right: 1.125rem;
+}
+.operations__btn{
+  border: 1px solid #0A5244;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 96px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 14px;
+  color: $green;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.operations__btn-link{
+  color: $green_text;
+  text-decoration: none;
+}
+.input{
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.form-block__item-input__email{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+.operations__table-wrapper{
+
+  padding-top: 1.5625rem;
+  text-align: center;
+  display: none;
+}
+.operations__table{
+ width: 100%;
+ color: $gray;
+ tr{
+  padding: 1rem!important;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  
+ }
+}
+.operations__table-header{
+  font-size: 15px !important;
+  line-height: 24px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000000;
+  letter-spacing: 0.2px
+}
+.operations__active{
+  display: block;
+}
+.operations_btn:focus{
+  border: none;
+  outline: none;
+}

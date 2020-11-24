@@ -1,0 +1,26 @@
+@import 'normalize';
+@import 'bootstrap';
+@import 'mixins';
+@import 'vars';
+@import 'fonts';
+@import 'local-fonts';
+@import 'global';
+@import 'svg';
+@import 'bem-blocks';
+
+
+/* NOTE - import here your style modules */
+@import 'header';
+@import 'balance';
+@import 'form-block';
+@import 'operations';
+@import 'calculator';
+@import 'video-player';
+@import '404';
+@import 'payment-declined';
+@import 'structure-depo';
+@import 'structure';
+@import 'scrollbar';
+@import 'global-mobi';
+@import 'operations-mobi';
+@import'media';

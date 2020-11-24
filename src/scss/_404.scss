@@ -1,0 +1,88 @@
+.not-found__wrapper{
+    background: url(../images/SignIn.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.not-found__block{
+    width: 412px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    opacity: 0.9;
+    padding-top: 2.6875rem;
+    
+}
+.not-found__header-text{
+font-family:'Enigmo';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.2px;
+color: $gray;
+padding-top: 0.9375rem;
+}
+.not-found__number-wrapper{
+    padding-top: 4.6875rem;
+    padding-bottom: 4.25rem;
+    .not-found__number{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 83px;
+        height: 83px;
+        border-radius: 100%;
+        background: url(../images/el.svg) no-repeat;
+        background-size: contain;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        color: $green;
+        margin-bottom: 2.125rem;
+
+    }
+    .not-found__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 83px;
+        height: 83px;
+        margin-bottom: 2.125rem;
+    }
+    .not-found__number-text{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        color: $green;
+    }
+
+
+}
+.not-found__block-link{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-decoration-line: underline;
+    color: $green_text;
+    margin-bottom: 2.3125rem;
+    &:hover{
+        text-decoration: none;
+        color: $green;
+    }
+}

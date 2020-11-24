@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Мои операции">
+	<meta name="keywords" content="Enigmo, Финансовая Платформа">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Мои операции</title>
+</head>
+<body>
+    <div class="wrapper-mobi">
+        <div class="wrapper-content-mobi">
+            <header class="header-mobi">
+                <div class="currency">
+                    <span class="currency__name">USD / BTC :</span>
+                    <p class="currency__number">$11 546 ▲</p>
+                </div>
+                <div class="header-mobi__btn-wrapper">
+                    <button class="header-mobi__btn"><img src="images/burger-icon.svg" alt=""></button>
+                </div>
+            </header>
+            <div class="">
+            <div class="balance__info-mobi">
+                <div class="balance__sum-wrapper-mobi">
+                <img src="images/balance.svg" alt="Баланс">
+                <h4 class="balance__title-mobi">Баланс</h4>
+            </div>
+            <div class="balance_btn-block-mobi">
+                <button class="balance_btn-mobi balance__btn-active"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                <button class="balance_btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+            </div>
+            </div>
+            <div class="balance__sum-mobi">
+                <span>$</span>
+                <h1 class="balance__sum-mob__title"> 26 465.43</h1>
+            </div>
+            <div class="btn-mobi__wrapper">
+                <button class="btn-mobi"><img src="images/replenish-usd-icon.svg" alt="Пополнить" class="btn-mobi__img">Пополнить</button>
+                <button class="btn-mobi"><img src="images/bring-out-usd.svg" alt="Вывести" class="btn-mobi__img">Вывести</button>
+                <button class="btn-mobi"><img src="images/to-end-usd-icon.svg" alt="Отправить" class="btn-mobi__img">Отправить</button>
+            </div>
+        </div>
+ <!-- пополнить -->
+            <div class="replenish-block d-none">
+    
+                <div class="balance__info-mobi">
+                    <div class="balance__sum-wrapper-mobi align-items-start">
+                    <img src="images/1.svg" alt="Пополнить">
+                    <div>
+                    <h4 class="balance__title-mobi">Пополнить</h4>
+                    <a href="#" class="replenish-block__link">▷ Видеоинструкция</a>
+                </div>
+                </div>
+                <div class="balance_btn-block-mobi pt-0">
+                    <button class="balance_btn-mobi balance__btn-active form-block__item-btn-mobi"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                    <button class="balance_btn-mobi form-block__item-btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                </div>
+                </div>
+                <div class="form-block__item replenish-block_mt pt-0 height-custom">
+                
+                    <div class="form-block__item-body pt-0">
+                        <p class="form-block__item-body__title-mobi">Сумма для пополнения :</p>
+
+<!--                                form-->
+                        <form action="#" class="form-block__form">
+                            <div class="form-block__form-input-wrapper">
+                                <img src="images/$_1.svg" alt="$">
+                                <input type="text" class="form-block__form-input form-block__form-input__mobi">
+                            </div>
+                            <span>Комиссия платежной системы 2.5%</span>
+                            <div class="form-block__item-card-wrapper">
+                                <img src="images/Visa_1.svg" alt="Visa" class="form-block__img pr-custom">
+                                <img src="images/Frame.svg" alt="masrercard" class="form-block__img">
+                                <img src="images/mir.svg" alt="mir" class="form-block__img">
+                            </div>
+                            <button type="submit" class="form-block__btn-mobi">Перейти к пополнению</button>
+                            <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------- -->
+
+            <!-- вывод  -->
+            <div class="conclusion-block d-none">
+    
+                <div class="balance__info-mobi">
+                    <div class="balance__sum-wrapper-mobi align-items-start">
+                    <img src="images/refill_balance_1.svg" alt="Вывод">
+                    <div>
+                    <h4 class="balance__title-mobi">Вывод</h4>
+                    <div class="conclusion-block__btn-block">
+                        <p>Отправить валюту :</p>
+                            <div class="conclusion-block__btn-wrapper">
+                                <button class="form-block__item-btn form-block__item-btn__active">USD</button>
+                                <button class="form-block__item-btn">BTC</button>
+                    
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="balance_btn-block-mobi pt-0">
+                    <div>
+                        <div class="conclusion__btn-wrapper mr-0">
+                        <button class="balance_btn-mobi form-block__item-btn-mobi balance__btn-active"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                    <button class="balance_btn-mobi form-block__item-btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                    </div>
+                    <p class="conclusion__text">Вывод средств по курсу Coinbase <br>на момент совершения операции.</p>
+                    </div>
+
+                </div>
+                
+                </div>
+                <div class="form-block__item replenish-block_mt pt-0 height-custom">
+                
+                    <div class="form-block__item-body pt-0">
+                        <p class="form-block__item-body__title-mobi">Сумма для вывода :</p>
+
+<!--                                form-->
+                        <form action="#" class="form-block__form">
+                            <div class="form-block__form-input-wrapper">
+                                <img src="images/$_1.svg" alt="$">
+                                <input type="text" class="form-block__form-input form-block__form-input__mobi">
+                            </div>
+                            <div class="form-block__form-input-wrapper form-block__form-vtc mt-1">
+                                <img src="images/card.svg" alt="card">
+                                <input type="text" class="form-block__form-input input form-block__form-input__mobi" placeholder="0000 0000 0000 0000">
+                            </div>
+
+                            <button type="submit" class="form-block__btn-mobi mt-5">Вывести</button>
+                            <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------- -->
+
+            <!-- вывод  ВТС-->
+            <div class="conclusion-block d-none">
+    
+                <div class="balance__info-mobi">
+                    <div class="balance__sum-wrapper-mobi align-items-start">
+                    <img src="images/refill_balance_1.svg" alt="Вывод">
+                    <div>
+                    <h4 class="balance__title-mobi">Вывод</h4>
+                    <div class="conclusion-block__btn-block">
+                        <p>Отправить валюту :</p>
+                            <div class="conclusion-block__btn-wrapper">
+                                <button class="form-block__item-btn">USD</button>
+                                <button class="form-block__item-btn form-block__item-btn__active">BTC</button>
+                    
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="balance_btn-block-mobi pt-0">
+                    <div>
+                        <div class="conclusion__btn-wrapper mr-0">
+                        <button class="balance_btn-mobi form-block__item-btn-mobi balance__btn-active"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                    <button class="balance_btn-mobi form-block__item-btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                    </div>
+                    <p class="conclusion__text">Вывод средств по курсу Coinbase <br>на момент совершения операции.</p>
+                    </div>
+
+                </div>
+                
+                </div>
+                <div class="form-block__item replenish-block_mt pt-0 height-custom">
+                
+                    <div class="form-block__item-body pt-0">
+                        <p class="form-block__item-body__title-mobi">Сумма для вывода :</p>
+
+<!--                                form-->
+                        <form action="#" class="form-block__form">
+                            <div class="form-block__form-input-wrapper">
+                                <img src="images/BB.svg" alt="b">
+                                <input type="text" class="form-block__form-input form-block__form-input__mobi">
+                            </div>
+                            <div class="form-block__form-input-wrapper form-block__form-vtc mt-1">
+                                <img src="images/card.svg" alt="card">
+                                <input type="text" class="form-block__form-input input form-block__form-input__mobi" placeholder="ВТС-кошелек">
+                            </div>
+
+                            <button type="submit" class="form-block__btn-mobi mt-5">Вывести</button>
+                            <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------- -->
+
+            <!-- перевод USD -->
+
+            <div class="transfer d-none">
+                <div class="">
+                    <div class="balance__info-mobi">
+                        <div class="balance__sum-wrapper-mobi">
+                            <img src="images/Group198.svg" alt="ПЕРЕВОД" class="form-block__item-img">
+                        <h4 class="balance__title-mobi">Перевод</h4>
+                    </div>
+                    <div class="balance_btn-block-mobi">
+                        <button class="balance_btn-mobi balance__btn-active"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                        <button class="balance_btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                    </div>
+                    </div>
+                    <div class="form-block__item replenish-block_mt pt-0 height-custom">
+                
+                        <div class="form-block__item-body pt-0">
+                            <p class="form-block__item-body__title-mobi">Сумма для пополнения :</p>
+    
+    <!--                                form-->
+                            <form action="#" class="form-block__form">
+                                <div class="form-block__form-input-wrapper">
+                                    <img src="images/$_1.svg" alt="$">
+                                    <input type="text" class="form-block__form-input form-block__form-input__mobi">
+                                </div>
+                                <div class="form-block__form-input-wrapper">
+                                    <img src="images/mail.svg" alt="email">
+                                    <input type="email" class="form-block__form-input form-block__item-input__email form-block__form-input__mobi-email" placeholder="E-mail, указанный при регистрации">
+                                </div>
+                                
+                                <button type="submit" class="form-block__btn-mobi mt-5">Отправить</button>
+                                <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+    
+                            </form>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <!-------------------------------------------------------- -->
+
+             <!-- ВТС -->
+             <div class="btc d-none">
+                <div class="">
+                    <div class="balance__info-mobi">
+                        <div class="balance__sum-wrapper-mobi">
+                        <img src="images/BBB.svg" alt="Баланс">
+                        <h4 class="balance__title-mobi">Баланс</h4>
+                    </div>
+                    <div class="balance_btn-block-mobi">
+                        <button class="balance_btn-mobi balance__btn-active"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                        <button class="balance_btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                    </div>
+                    </div>
+                    <div class="balance__sum-mobi">
+                        
+                        <h1 class="balance__sum-mob__title"> 26 465.43</h1>
+                        <span class="balance__sum-mobi__text">BTC</span>
+                    </div>
+                    <div class="btn-mobi__wrapper">
+                        <button class="btn-mobi"><img src="images/ad.svg" alt="+" class="btn-mobi__img-ad"><img src="images/refill_balance-green.svg" alt="Пополнить" class="btn-mobi__img">Пополнить</button>
+                        <button class="btn-mobi"><img src="images/refill_balance-green.svg" alt="Вывести" class="btn-mobi__img"><img src="images/a.svg" alt="" class="btn-mobi__img-arrow">Вывести</button>
+                        <button class="btn-mobi"><img src="images/h.svg" alt="" class="btn-mobi__img-ad"><img src="images/refill_balance-green.svg" alt="Отправить" class="btn-mobi__img">Отправить</button>
+                    </div>
+            </div>
+            </div>
+
+            <!-- --------------------------------------------------------- -->
+
+<!-- пополнить BTC-->
+<div class="replenish-block d-none">
+    
+    <div class="balance__info-mobi">
+        <div class="balance__sum-wrapper-mobi align-items-start">
+        <img src="images/b-1.svg" alt="Пополнить">
+        <div>
+        <h4 class="balance__title-mobi">Пополнить</h4>
+        <a href="#" class="replenish-block__link">▷ Видеоинструкция</a>
+    </div>
+    </div>
+    <div class="balance_btn-block-mobi pt-0">
+        <button class="balance_btn-mobi balance__btn-active form-block__item-btn-mobi"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+        <button class="balance_btn-mobi form-block__item-btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+    </div>
+    </div>
+    <div class="form-block__item replenish-block_mt pt-0 height-custom">
+    
+        <div class="form-block__item-body pt-0">
+            <p class="form-block__item-body__title-mobi">Для пополнения баланса необходимо отправить BTC на кошелек:</p>
+
+                            <!-- form -->
+        <form action="#" class="form-block__form">
+            <div class="form-block__form-input-wrapper">
+
+                <input type="text" class="form-block__form-input vts__input form-block__form-input__mobi-email mb-0">
+                <img src="images/i_copy.svg" alt="copy">
+            </div>
+           
+
+            <!-- calculator-block -->
+            <div class="calculator__wrapper text-center">
+            
+
+                
+
+                                                <!-- Modal -->
+<div class="modal fade" id="calculator" tabindex="-1" role="dialog" aria-labelledby="calculator" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content w-custom">
+<!-- calculator -->
+<div class="calculator">
+<div class="calculator__title-wrapper">
+    <img src="images/cal.svg" alt="calculator" class="calculator__title-img">
+    <h4 class="calculator__title">КАЛЬКУЛЯТОР</h4>
+</div>
+<p class="calculator__text">Значения актуальны<br> для текущего курса BTC/USD</p>
+<div class="calculator__input-wrapper">
+    <img src="images/$_1.svg" alt="$" class="calculator__input-img">
+    <input type="text" class="calculator__input">
+</div>
+<img src="images/2-line.svg" alt="line" class="calculator__img">
+<div class="calculator__input-wrapper">
+    <img src="images/BB.svg" alt="B" class="calculator__input-img">
+    <input type="text" class="calculator__input">
+</div>
+<button class="calculator__button" data-dismiss="modal">
+    <img src="images/Arrow_big.svg" alt="back" class="calculator__arrow">
+</button>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+            </div>
+            <button class="calculator__btn__mobi" data-toggle="modal" data-target="#calculator">
+                <img src="images/calculator.svg" alt="Калькулятор" class="calculator-img-mobi">Калькулятор</button>
+            <div class="vts_warning vts_warning-mobi">
+                <img src="images/attention.svg" alt="warning" class="vts_warning-img">
+                <span>Зачисление средств происходит после 3-х подтверждений транзакции</span>
+            </div>
+            
+        </form>
+            
+        </div>
+        <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+    </div>
+</div>
+<!-- ---------------------------------------------------- -->
+
+
+            <!-- вывод bts-block -->
+            <div class="conclusion-block d-none">
+                <div class="balance__info-mobi">
+                    <div class="balance__sum-wrapper-mobi align-items-start">
+                    <img src="images/b.svg" alt="Вывод">
+                    <div>
+                    <h4 class="balance__title-mobi">Вывод</h4>
+        
+                </div>
+                </div>
+                <div class="balance_btn-block-mobi pt-0">
+                    <button class="balance_btn-mobi balance__btn-active form-block__item-btn-mobi"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                    <button class="balance_btn-mobi form-block__item-btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                </div>
+                </div>
+                <div class="form-block__item replenish-block_mt pt-0 height-custom">
+                
+                    <div class="form-block__item-body pt-0">
+                        <p class="form-block__item-body__title-mobi">Сумма для выаода :</p>
+
+<!--                                form-->
+                        <form action="#" class="form-block__form">
+                            <div class="form-block__form-input-wrapper">
+                                <img src="images/BB.svg" alt="b">
+                                <input type="text" class="form-block__form-input form-block__form-input__mobi">
+                            </div>
+                            <div class="form-block__form-input-wrapper form-block__form-vtc mt-1">
+                                <img src="images/card.svg" alt="card">
+                                <input type="text" class="form-block__form-input input form-block__form-input__mobi" placeholder="ВТС-кошелек">
+                            </div>
+
+                            <button type="submit" class="form-block__btn-mobi mt-5">Вывести</button>
+                            <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------- -->
+
+<!-- перевод ВТС -->
+
+<div class="transfer d-none">
+    <div class="balance__info-mobi">
+        <div class="balance__sum-wrapper-mobi align-items-start">
+        <img src="images/b-3.svg" alt="Перевод">
+        <div>
+        <h4 class="balance__title-mobi">Перевод</h4>
+
+    </div>
+    </div>
+    <div class="balance_btn-block-mobi pt-0">
+        <button class="balance_btn-mobi balance__btn-active form-block__item-btn-mobi"><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+        <button class="balance_btn-mobi form-block__item-btn-mobi"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+    </div>
+    </div>
+    <div class="form-block__item replenish-block_mt pt-0 height-custom">
+                
+        <div class="form-block__item-body pt-0">
+            <p class="form-block__item-body__title-mobi">Сумма для пополнения :</p>
+
+<!--                                form-->
+            <form action="#" class="form-block__form">
+                <div class="form-block__form-input-wrapper">
+                    <img src="images/BB.svg" alt="b">
+                    <input type="text" class="form-block__form-input form-block__form-input__mobi">
+                </div>
+                <div class="form-block__form-input-wrapper">
+                    <img src="images/mail.svg" alt="email">
+                    <input type="email" class="form-block__form-input form-block__item-input__email form-block__form-input__mobi-email" placeholder="E-mail, указанный при регистрации">
+                </div>
+                
+                <button type="submit" class="form-block__btn-mobi mt-5">Отправить</button>
+                <a href="#" class="back-links"><img src="images/back-1.svg" alt="Назад" class="back-links__img">Назад</a>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+            <!-- operations block -->
+            <div class="operations-mobi">
+                <div class="operations__header-mobi">
+                    <div class="btn__click-mobi">
+    
+                    <img src="images/i-MyOperations.svg" alt="Мои операции" class="operations__header-img">
+                    <button class="operations_btn btn__click-mobi">Мои операции
+                        <img src="images/Vector.svg" alt="Мои операции" class="operations__header-arrow"></button>
+                    </div>
+                    <!-- hidden block -->
+                        <div class="operations-mobi__hidden">
+                    
+                    <div class="calendar__wrapper-mobi">
+                        <div class="calendar__wrapper-block">
+                        <div class="calendar__input__wrapper">
+                            <img src="images/kal.svg" alt="Календарь" class="calendar__wrapper-img">
+                            <input type="text" class="calendar__input" placeholder="дд/мм/гг">
+                        </div>
+                        <div class="calendar__input__wrapper">
+                            <img src="images/kal.svg" alt="Календарь" class="calendar__wrapper-img">
+                            <input type="text" class="calendar__input" placeholder="дд/мм/гг">
+                        </div>
+                    </div>
+                    <div class="operations__btn-mobi mr-0">
+                        <a href="#" class="operations__btn-link">Все время</a>
+                    </div>
+        
+                        
+                    </div>
+                
+                <div class="operations-table-block__mobi">
+                    <table class="table operations-table__mobi">
+                    
+                        <tbody>
+                          <tr class="table__mobi-replenish">
+                            <th scope="row">Пополнить баланс</th>
+                            <td>05-04-2020</td>
+                            <td>1 500</td>
+        
+                          </tr>
+                          <tr class="table__mobi-conclusion">
+                            <th scope="row">Вывод средств</th>
+                            <td>05-04-2020</td>
+                            <td>1 500</td>
+                          </tr>
+                          <tr class="table__mobi-replenish">
+                            <th scope="row">Пополнить баланс</th>
+                            <td>05-04-2020</td>
+                            <td>1 500</td>
+        
+                          </tr>
+                          <tr class="table__mobi-conclusion">
+                            <th scope="row">Вывод средств</th>
+                            <td>05-04-2020</td>
+                            <td>1 500</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+    
+                </div>
+            </div>
+            <!-- ------------------------------------------------------ -->
+            
+           
+        </div>
+        <div class="menu-block fixed-bottom">
+            <div class="menu">
+              <button class="menu__btn"> <a href="#" class="menu__link"><img src="images/menu-back-icons.svg" alt="Назад" class="menu__btn-img"></a></button>
+              <button class="menu__btn"> <img src="images/notification.svg" alt="Уведомления" class="menu__btn-img"></button>
+              <button class="menu__btn"> <img src="images/settings.svg" alt="Настройки" class="menu__btn-img"></button>
+              <button class="menu__btn"> <a href="#" class="menu__link"><img src="images/support.svg" alt="Новости" class="menu__btn-img"></a></button>
+              <button class="menu__btn"> <a href="#" class="menu__link"><img src="images/logout.svg" alt="Выход" class="menu__btn-img"></a></button>
+
+
+            </div>
+        </div>
+        <!-- video-player -->
+        <div class="video-player__wrapper video-player__wrapper-mobi">
+
+            <video poster="" preload="none" class="video-player__video">
+                
+            <source src="" type="video/mp4">
+             </video>
+             <button class="video-player_btn video-player_btn-mobi"><img src="images/Polygon.svg" alt="Плей" class="video-player_btn-mobi__img"></button>
+            </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

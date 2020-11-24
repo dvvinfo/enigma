@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>ENIGMA</title> -->
+    @@include('components/page/_1_head.html',{
+        'title': 'Мои операции',
+        'description': 'Мои операции',
+        'keywords': 'Enigmo, Финансовая Платформа',
+        'favicon': 'img/favicon.png'
+        })
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <img src="images/Enigmo Logo.svg" alt="enigmo" class="logo__img">
+                    <span class="logo__text">Финансовая Платформа</span>
+                </div>
+                <div class="header__icons">
+                    <a href="#" class="header__icons-link"><img src="images/default.svg" alt="Уведомления" class="header__icons-img"></a>
+                    <a href="#" class="header__icons-link"><img src="images/setting.svg" alt="Настройки" class="header__icons-img"></a>
+                    <a href="#" class="header__icons-link"><img src="images/news.svg" alt="Новости" class="header__icons-img"></a>
+                    <div class="header__login">
+                        <a href="#" class="header__icons-link"><img src="images/login.svg" alt="Вход" class="header__login-img"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper-content">
+            <div class="balance">
+
+                       <div class="balance__info">
+                                   <!--        Button Back-->
+        <div class="arrow__btn-wrapper"><button class="arrow__btn"><a href="#" class="arrow__btn-img">
+            <img src="images/Arrow_big.svg" alt="back" class="arrow__btn-img"></a></button>
+        </div>
+                          <div class="balance__sum-wrapper">
+                           <img src="images/balance.svg" alt="balance" class="balance__img"> <h4 class="balance__title">Баланс </h4>
+                           <h1 class="balance__sum">0.43 </h1><span>USD</span>
+</div>
+                           <div class="balance_btn-block">
+                               <button class="balance_btn balance__btn-active "><img src="images/$.svg" alt="USD" class="balance_btn-img">USD</button>
+                               <button class="balance_btn"><img src="images/BTC.svg" alt="BTC" class="balance_btn-img">BTC</button>
+                           </div>
+                       </div>
+
+
+                       <div class="balance_number">
+                           <span>Текущий курс USD / BTC</span>
+                           <p>▲ 11 546 $</p>
+                       </div>
+
+
+            </div>
+<!--           form-block -->
+            <div class="form-block ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-block__item">
+                            <div class="form-block__item-header">
+                                <div class="d-flex">
+                                <img src="images/refill_balance.svg" alt="Пополнить" class="form-block__item-img">
+                                <h4 class="form-block__item-header__title">Пополнить</h4>
+                                </div>
+                                <a  href="#" class="form-block__item-header__text">Видеоинструкция</a>
+                            </div>
+                            <div class="form-block__item-body">
+                                <p class="form-block__item-body__title">Сумма для пополнения :</p>
+
+<!--                                form-->
+                                <form action="#" class="form-block__form">
+                                    <div class="form-block__form-input-wrapper">
+                                        <img src="images/$_1.svg" alt="$">
+                                        <input type="text" class="form-block__form-input" >
+                                    </div>
+                                    <span>Комиссия платежной системы 2.5%</span>
+                                    <div class="form-block__item-card-wrapper">
+                                        <img src="images/Visa_1.svg" alt="Visa" class="form-block__img pr-custom">
+                                        <img src="images/Frame.svg" alt="masrercard" class="form-block__img">
+                                        <img src="images/mir.svg" alt="mir" class="form-block__img">
+                                    </div>
+                                    <button type="submit" class="form-block__btn">Перейти к пополнению</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-block__item ">
+                            <div class="form-block__item-header">
+                                <div class="d-flex align-items-center">
+                                <img src="images/refill_balance_1.svg" alt="Вывод" class="form-block__item-img">
+                                <h4 class="form-block__item-header__title">Вывод</h4>
+                                </div>
+                                <div class="form-block__item-btn-wrapper">
+                                    <div class="form-block__item-btn-wrapper__text">Отправить валюту :</div>
+                                    <button class="form-block__item-btn form-block__item-btn__active">USD</button>
+                                    <button class="form-block__item-btn">BTC</button>
+                                </div>
+                            </div>
+                            <div class="form-block__item-body">
+                                <p class="form-block__item-body__title">Сумма для выаода :</p>
+
+                        
+                                <form action="#" class="form-block__form vtc-active">
+                                    <div class="form-block__form-input-wrapper">
+                                        <img src="images/$_1.svg" alt="$">
+                                        <input type="text" class="form-block__form-input" >
+                                    </div>
+                                    <div class="form-block__form-input-wrapper form-block__form-vtc">
+                                        <img src="images/card.svg" alt="card">
+                                        <input type="text" class="form-block__form-input input" placeholder="0000 0000 0000 0000">
+                                    </div>
+                                    
+                                    <button type="submit" class="form-block__btn ">Ввести</button>
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- VTC-form hidden-->
+                        <div class="form-block__item vtc__form vtc_form-active">
+                            <div class="form-block__item-header">
+                                <div class="d-flex align-items-center">
+                                <img src="images/b.svg" alt="Вывод" class="form-block__item-img">
+                                <h4 class="form-block__item-header__title">Вывод</h4>
+                                </div>
+                                <div class="form-block__item-btn-wrapper">
+                                    <div class="form-block__item-btn-wrapper__text">Отправить валюту :</div>
+                                    <button class="form-block__item-btn form-block__item-btn__active">USD</button>
+                                    <button class="form-block__item-btn">BTC</button>
+                                </div>
+                            </div>
+                            <div class="form-block__item-body">
+                                <p class="form-block__item-body__title">Сумма для выаода :</p>
+
+                                <!-- BTC -->
+                                <form action="#" class="form-block__form ">
+                                    <div class="form-block__form-input-wrapper">
+                                        <img src="images/bb.svg" alt="b">
+                                        <input type="text" class="form-block__form-input" >
+                                    </div>
+                                    <div class="form-block__form-input-wrapper form-block__form-vtc">
+                                        <img src="images/card.svg" alt="card">
+                                        <input type="text" class="form-block__form-input vtc__input" placeholder="BTC-кошелек">
+                                    </div>
+                                    <P class="form-block__form__text-vtc">Вывод средств происходит по курсу Coinbase на момент совершения операции</P>
+                                    <button type="submit" class="form-block__btn ">Ввести</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-block__item">
+                            <div class="form-block__item-header">
+                                <div class="d-flex">
+                                    <img src="images/Group198.svg" alt="ПЕРЕВОД" class="form-block__item-img">
+                                    <h4 class="form-block__item-header__title">ПЕРЕВОД</h4>
+                                </div>
+                            </div>
+                            <div class="form-block__item-body">
+                                <p class="form-block__item-body__title">Сумма для перевода внутри сети :</p>
+                                <!--                                form-->
+                                <form action="#" class="form-block__form">
+                                    <div class="form-block__form-input-wrapper">
+                                        <img src="images/$_1.svg" alt="$">
+                                        <input type="text" class="form-block__form-input" >
+                                    </div>
+                                    <div class="form-block__form-input-wrapper">
+                                        <img src="images/mail.svg" alt="email">
+                                        <input type="email" class="form-block__form-input form-block__item-input__email" placeholder="E-mail, указанный при регистрации">
+                                    </div>
+                                    <button type="submit" class="form-block__btn ">Отправить</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- vtc-block-hidden -->
+<div class="form-block vts_block ">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-block__item">
+                <div class="form-block__item-header">
+                    <div class="d-flex">
+                    <img src="images/b-1.svg" alt="Пополнить" class="form-block__item-img">
+                    <h4 class="form-block__item-header__title">Пополнить</h4>
+                    </div>
+                    <a  href="#" class="form-block__item-header__text">Видеоинструкция</a>
+                </div>
+                <div class="form-block__item-body">
+                    <p class="form-block__item-body__title">Для пополнения баланса необходимо отправить BTC на кошелек :</p>
+
+<!--                                form-->
+                    <form action="#" class="form-block__form">
+                        <div class="form-block__form-input-wrapper">
+
+                            <input type="text" class="form-block__form-input vts__input" >
+                            <img src="images/i_copy.svg" alt="copy">
+                        </div>
+                        <div class="vts_warning">
+                            <img src="images/attention.svg" alt="warning" class="vts_warning-img">
+                            <span>Зачисление средств происходит после 3-х подтверждений транзакции</span>
+                        </div>
+
+                        <!-- calculator-block -->
+                        <div class="calculator__wrapper">
+
+                            <button class="calculator__btn" data-toggle="modal" data-target="#calculator">
+                                <img src="images/calculator.svg" alt="Калькулятор" class="calculator-img">Калькулятор</button>
+
+                                                            <!-- Modal -->
+<div class="modal fade " id="calculator" tabindex="-1" role="dialog" aria-labelledby="calculator" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content w-custom">
+        <!-- calculator -->
+        <div class="calculator ">
+            <div class="calculator__title-wrapper">
+                <img src="images/cal.svg" alt="calculator" class="calculator__title-img">
+                <h4 class="calculator__title">КАЛЬКУЛЯТОР</h4>
+            </div>
+            <p class="calculator__text">Значения актуальны<br> для текущего курса BTC/USD</p>
+            <div class="calculator__input-wrapper">
+                <img src="images/$_1.svg" alt="$" class="calculator__input-img">
+                <input type="text" class="calculator__input">
+            </div>
+            <img src="images/2-line.svg" alt="line" class="calculator__img">
+            <div class="calculator__input-wrapper">
+                <img src="images/BB.svg" alt="B" class="calculator__input-img">
+                <input type="text" class="calculator__input">
+            </div>
+            <button class="calculator__button" data-dismiss="modal">
+                <img src="images/Arrow_big.svg" alt="back" class="calculator__arrow">
+            </button>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    
+                        </div>
+                        
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-block__item">
+                <div class="form-block__item-header">
+                    <div class="d-flex align-items-center">
+                    <img src="images/b.svg" alt="Вывод" class="form-block__item-img">
+                    <h4 class="form-block__item-header__title">Вывод</h4>
+                    </div>
+                    <div class="form-block__item-btn-wrapper">
+                        <div class="form-block__item-btn-wrapper__text">Отправить валюту :</div>
+                        <button class="form-block__item-btn form-block__item-btn__active">USD</button>
+                        <button class="form-block__item-btn">BTC</button>
+                    </div>
+                </div>
+                <div class="form-block__item-body">
+                    <p class="form-block__item-body__title">Сумма для вывода :</p>
+
+                    <!-- BTC -->
+                    <form action="#" class="form-block__form vtc-active">
+                        <div class="form-block__form-input-wrapper">
+                            <img src="images/B.svg" alt="B">
+                            <input type="text" class="form-block__form-input" >
+                        </div>
+                        <div class="form-block__form-input-wrapper form-block__form-vtc">
+                            <img src="images/card.svg" alt="card">
+                            <input type="text" class="form-block__form-input vtc__input" placeholder="BTC-кошелек">
+                        </div>
+                        <P class="form-block__form__text-vtc">Вывод средств происходит по курсу Coinbase на момент совершения операции</P>
+                        <button type="submit" class="form-block__btn ">Ввести</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-block__item">
+                <div class="form-block__item-header">
+                    <div class="d-flex">
+                        <img src="images/BB.svg" alt="ПЕРЕВОД" class="form-block__item-img">
+                        <h4 class="form-block__item-header__title">ПЕРЕВОД</h4>
+                    </div>
+                </div>
+                <div class="form-block__item-body">
+                    <p class="form-block__item-body__title">Сумма для перевода внутри сети :</p>
+                    <!--                                form-->
+                    <form action="#" class="form-block__form">
+                        <div class="form-block__form-input-wrapper">
+                            <img src="images/B.svg" alt="B">
+                            <input type="text" class="form-block__form-input" >
+                        </div>
+                        <div class="form-block__form-input-wrapper">
+                            <img src="images/mail.svg" alt="email">
+                            <input type="email" class="form-block__form-input form-block__item-input__email" placeholder="E-mail, указанный при регистрации">
+                        </div>
+                        <button type="submit" class="form-block__btn ">Отправить</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--          My operations -->
+
+            <div class="operations">
+                <div class="operations__header">
+    
+                    <img src="images/i-MyOperations.svg" alt="Мои операции" class="operations__header-img">
+                    <button class="operations_btn" >Мои операции
+                        <img src="images/Vector.svg" alt="Мои операции" class="operations__header-arrow"></button>
+                    
+                    <div class="calendar__wrapper">
+                        <span>Период</span>
+                        <img src="images/kal.svg" alt="Календарь" class="calendar__wrapper-img">
+                        <span class="calendar__month">Январь</span>
+                    </div>
+                </div>
+                <div class="operations__btn">
+                    <a href="#" class="operations__btn-link">Все время</a>
+                </div>
+            </div>
+            <div class="operations__table-wrapper " id="operations__table-wrapper">
+                <div class="table-responsie-md"></div>
+                <table class="table table-borderless  operations__table ">
+                    <thead class="operations__table-header">
+                      <tr>
+                        <th scope="col">операции</th>
+                        <th scope="col">Тип</th>
+                        <th scope="col">Дата</th>
+                        <th scope="col">ВТС</th>
+                        <th scope="col">USD</th>
+                        <th scope="col">Статус</th>
+                        <th scope="col">Комментарии</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                       
+                        <td>Транзакция</td>
+                        <td>????????????</td>
+                        <td>06.05.2020 18:57</td>
+                        <td>0.24784496</td>
+                        <td>2 300.00</td>
+                        <td>Выполнено</td>
+                        <td>Комментарий?</td>
+                      </tr>
+                    
+                      
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <!-- video-player -->
+            <div class="video-player__wrapper">
+
+            <video  poster="" preload="none" class="video-player__video" >
+                
+            <source src="" type="video/mp4">
+             </video>
+             <button class="video-player_btn"><img src="images/Polygon.svg" alt="Плей"></button>
+            </div>
+    </div>
+
+    @@include('components/page/_4_scripts.html')
+</body>
+</html>

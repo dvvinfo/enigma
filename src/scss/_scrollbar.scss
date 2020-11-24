@@ -1,0 +1,31 @@
+.materials-block::-webkit-scrollbar-button {
+   
+    }
+    
+    .materials-block::-webkit-scrollbar-track {
+
+        background: linear-gradient(153.87deg, #0C0C0C 5.8%, #171717 99.33%), #171717;
+        box-shadow: inset -7px -7px 10px rgba(35, 35, 35, 0.46), inset 7px 7px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .materials-block::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: linear-gradient(150.61deg, #171717 8.22%, #1C1C1D 89.77%), #171717;
+box-shadow: inset -7px -7px 10px rgba(35, 35, 35, 0.46), inset 7px 7px 10px rgba(0, 0, 0, 0.3);
+transform: rotate(90deg);
+    // background-image:url('../images/Bg_process.png');
+    // background-position:center;
+    // background-repeat:no-repeat;
+    
+    }
+    
+    .materials-block::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    
+    }
+    
+    .materials-block::-webkit-scrollbar{
+    width: 15px;
+    }
