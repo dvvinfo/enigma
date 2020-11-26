@@ -1,0 +1,187 @@
+.deposit-block-mobi{
+
+}
+.deposit-block__content-table-title-mobi{
+    background: #1E1E1E;
+}
+.deposit-block__content-table-th{
+    border-left:  1px solid #000000;
+}
+.deposit-block__content-table-tr-mobi{
+    background: #2A2A2A;
+    td{
+        border-right:  1px solid #000000;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        padding: 1rem 0.625rem;
+        font-size: 10px;
+    }
+    
+}
+.deposit-block__content-table-thead{
+    th{
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        border-right:  1px solid #000000;
+        padding: 1rem 0.625rem;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.deposit-block__content-table-tr-mobi-color{
+    background: #3C3B3B;
+}
+.process__btn-1-mobi {
+    width: 113px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $green_2;
+    border: none;
+
+}
+.process__img-block__mobi{
+   max-width:  428px;
+    height: 272px;
+    margin: 2.9375rem auto 0;
+    background: url(../images/Group159.png)  no-repeat;
+    background-size: cover;
+}
+.process__btn-block-mobi {
+    max-width: 386px;
+    margin: 0  auto;
+}
+.process__info-block__mobi{
+    margin-top: 1.25rem;
+    background: linear-gradient(135.48deg, #171717 7.54%, #1C1C1D 129.08%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    padding: 3.125rem 1.25rem 1.25rem 1.25rem;
+   
+}
+.process__info-block__mobi-img-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 386px;
+    margin: 0 auto;
+}
+.process__info-block__mobi-link-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.25rem;
+    .process__info-block__mobi-link{
+        font-size: 18px;
+        line-height: 18px;
+        color: $green;
+        text-decoration: underline;
+        
+    }
+    
+}
+.process-sum-block__wrapper-mobi{
+    padding: 2.875rem 1.25rem 1.25rem 1.25rem;
+}
+.process-sum-block__balance-title-mobi{
+    font-size: 14px;
+}
+.process-sum-block__balance-number-mobi{
+    font-size: 16px;
+}
+.process-sum-block__form-input-mobi{
+    height: 64px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    &::placeholder{
+        font-size: 20px;
+    line-height: 16px;
+    }
+}
+.process-sum-block__form-btn-wrapper-mobi{
+    margin-top: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+.process-sum-block__form-btn-mobi{
+    width: 198px!important ;
+    height: 67px !important;
+    margin: 0 auto;
+}
+.process__information-block-mobi{
+    padding-top: 3rem;
+   
+}
+.process__information-block__item-mobi{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 2.5rem;
+   justify-content: space-between;
+   max-width: 386px;
+   margin: 0 auto;
+   
+   
+   
+   
+}
+.process__information-block__item_header-img-mobi{
+    padding-right: 0.875rem;
+}
+.process__information-block__item__img-mobi{
+    
+    padding-left: 0.625rem;
+   
+}
+.process__information-block__item__wrapper-mobi{
+    width: 280px;
+    &:nth-last-child() {
+        
+        padding-bottom: 2.5rem;
+    }
+    
+}
+.border-custom{
+    border-bottom: 1px solid #000;
+    padding-bottom: 1.875rem;
+}
+.process__information-block__item-title-mobi{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: $gray;
+    margin-bottom: 1.25rem;
+}
+.process__information-block__item__text-mobi{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray;
+    
+}
+.process__information-block__item__strategies{
+   
+    
+    margin-block-end: 0;
+    padding-inline-start: 1.25rem;
+    
+    .process__information-block__item__strategies__title{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 28px;
+        text-transform: uppercase;
+        &::marker{
+           color: #067362;
+        }
+        &:nth-child(1){
+            margin-top: 0.75rem;
+        }
+    }
+}

@@ -9,4 +9,8 @@ $(document).ready(function(){
 		$('.operations-mobi__hidden').slideToggle(300);      
 		return false;
 	});
+	$('.deposit-block__btn').click(function(){
+		$('.deposit-block__content').slideToggle(300);      
+		return false;
+	});
 });

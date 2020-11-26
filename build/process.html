@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Процессы">
+	<meta name="keywords" content="Enigmo, Финансовая Платформа">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Процессы</title>
+</head>
+<body>
+    <header class="header">
+    <div class="header__wrapper">
+        <div class="logo">
+            <img src="images/Enigmo Logo.svg" alt="enigmo" class="logo__img">
+            <span class="logo__text">Финансовая Платформа</span>
+        </div>
+        <div class="header__icons">
+            <a href="#" class="header__icons-link"><img src="images/default.svg" alt="Уведомления" class="header__icons-img"></a>
+            <a href="#" class="header__icons-link"><img src="images/setting.svg" alt="Настройки" class="header__icons-img"></a>
+            <a href="#" class="header__icons-link"><img src="images/news.svg" alt="Новости" class="header__icons-img"></a>
+            <div class="header__login">
+                <a href="#" class="header__icons-link"><img src="images/login.svg" alt="Вход" class="header__login-img"></a>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="wrapper-content">
+        
+                                    
+        <div class="deposit-block">
+         
+            <div class="deposit__title-wrapper">
+                <button class="deposit-block__btn"><img src="images/process.svg" alt="ДЕПОЗИТЫ" class="deposit-block__btn-img">ДЕПОЗИТЫ <img src="images/Vector.svg" alt="Arrow" class="deposit-block__btn-arrow"></button>
+
+            </div>
+            
+        </div>
+        <!-- таблица -->
+        <div class="deposit-block__content">
+            <table class="table table-striped deposit-block__content-table">
+                <thead>
+                  <tr class="deposit-block__content-table-title">
+                    <th scope="col" class="text-left">Тип</th>
+                    <th scope="col">$</th>
+                    <th scope="col">СТАРТ</th>
+                    <th scope="col">СРОК</th>
+                    <th scope="col">СЛЕДУЮЩИЙ ПЛАТЕЖ</th>
+                    <th scope="col" class="text-left">РЕИНВЕСТ</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="deposit-block__content-table-tr t">
+                    
+                    <td class="text-left">Фондовый</td>
+                    <td>2 300.00</td>
+                    <td>06.05.2020 18:57</td>
+                    <td>365 дней</td>
+                    <td>06.05.2020 18:57</td>
+                    
+                    <td class="text-left"><input type="radio" id="id7" class="table-input" checked="checked">
+                        <label for="id7" class="table-lalbel"></label> <a href="#" class="deposit-block__content-table-link deposit-block__content-table-link-active">Настроить</a></td>
+                    
+                 
+                    
+                  </tr>
+                  <tr class="deposit-block__content-table-tr">
+                    
+                    <td class="text-left">Криптовалютный</td>
+                    <td>2 300.00</td>
+                    <td>06.05.2020 18:57</td>
+                    <td>365 дней</td>
+                    <td>06.05.2020 18:57</td>
+                    <td class="text-left"><input type="radio" id="id8" class="table-input">
+                        <label for="id8" class="table-lalbel"></label> <a href="#" class="deposit-block__content-table-link">Настроить</a></td>
+                    
+                 
+                    
+                  </tr>
+                 
+                </tbody>
+              </table>
+        </div>
+        
+        <div class="process__btn-block d-none">
+            <button class="process__btn process__btn-active">Гибридный процесс</button>
+            <button class="process__btn">Фондовый процесс</button>
+            <button class="process__btn">Криптовалютный <br>процесс</button>
+            <button class="process__btn">Майнинг процесс</button>
+        </div>
+        <div class="process__btn-block process__btn-block">
+            <button class="process__btn-1 process__btn-active">Гибридный процесс</button>
+            <button class="process__btn-1">Фондовый процесс</button>
+            <button class="process__btn-1">Криптовалютный процесс</button>
+
+
+        </div>
+        <div class="process__img-block"></div>
+        <!-- Гибридный процес -->
+        
+        <div class="hybrid-process d-none">
+        <div class="process__info-block">
+            <img src="images/hybrid.svg" alt="Гибридный процесс" class="process__info-block-img">
+            <div class="process__info-block__text-wrapper">
+                <span class="process__info-block__text">Используемые инструменты:</span>
+                <p class="process__info-block__title">Трейдинг на фондовом и криптовалютном рынках | Майнинг Bitcoin</p>
+            </div>
+        </div>
+        <div class="row process-deposit">
+            <div class="col-8">
+                <div class="procces__number-block">
+                    <div class="procces__number-block__wrapper">
+                        <span class="procces__number-block__wrapper-year">1 год : </span><span class="green">до</span>
+                        <span class="procces__number-block__wrapper-number">65%</span><span class="green">годовых</span>
+                    </div>
+                </div>
+                <div class="process__text-block">
+                    <p>Депозит уходит в работу каждый Вторник. </p>
+                    <p>Доходность начисляется каждый календарный квартал.</p>
+                    <div class="process__text-block__file-wrapper">
+                        <span>Доступен с фазы : 1</span> 
+                        <a href="#" class="process__text-block__file-link">Подробнее о Фазах</a>
+                        <a href="#" class="process__text-block__file-link">Подробнее о Процессах</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Блок Сумма -->
+            <div class="col-4">
+                <div class="process-sum-block d-none">
+                    <div class="process-sum-block__header">
+                        <div class="process-sum-block__header-title">
+                            <img src="images/sum-icon.svg" alt=" СУММА" class="process-sum-block__header-title-img">
+                            СУММА
+                        </div>
+                        <div class="process-sum-block__header-btn-wrapper">
+                            <button class="process-sum-block__header-btn process-sum-block__header-btn-active"><img src="images/$.svg" alt="$" class="process-sum-block__header-btn-img"></button>
+                            <button class="process-sum-block__header-btn"> <img src="images/BTC.svg" alt="BTC" class="process-sum-block__header-btn-img"></button>
+
+                        </div>
+                    </div>
+            
+                    <div class="process-sum-block__balance-wrapper">
+                        <span class="process-sum-block__balance-title">Баланс кошелька :</span>
+                        <span class="process-sum-block__balance-number"> $ 2.120.43</span>
+
+                    </div>
+                    <div class="process-sum-block__form-wrapper">
+                        <form action="#" class="process-sum-block__form">
+                            <input type="text" class="process-sum-block__form-input" placeholder="min $10">
+                            <div class="process-sum-block__form-btn-wrapper">
+                                <button class="process-sum-block__form-btn" type="submit">Внести депозит</button>
+                            </div>
+                            <p class="process-sum-block__form-text">Принимаю <a href="#" class="process-sum-block__form-link">условия</a> </p>
+
+                        </form>
+                    </div>
+                </div>
+
+<!-- Блок суммы ВТС -->
+
+<div class="process-sum-block d-none">
+    <div class="process-sum-block__header">
+        <div class="process-sum-block__header-title">
+            <img src="images/sum-icon.svg" alt=" СУММА" class="process-sum-block__header-title-img">
+            СУММА
+        </div>
+        <div class="process-sum-block__header-btn-wrapper">
+            <button class="process-sum-block__header-btn"><img src="images/$.svg" alt="$" class="process-sum-block__header-btn-img"></button>
+            <button class="process-sum-block__header-btn process-sum-block__header-btn-active"> <img src="images/BTC.svg" alt="BTC" class="process-sum-block__header-btn-img"></button>
+
+        </div>
+    </div>
+
+    <div class="process-sum-block__balance-wrapper">
+        <span class="process-sum-block__balance-title">Баланс кошелька :</span>
+        <span class="process-sum-block__balance-number"> <span class="process-sum-block__balance-number__btc">0,154</span> BTC ≈$ 2.120.43</span>
+
+    </div>
+    <div class="process-sum-block__form-wrapper">
+        <form action="#" class="process-sum-block__form">
+            <input type="text" class="process-sum-block__form-input" placeholder="min $10">
+            <div class="process-sum-block__form-btn-wrapper">
+                <button class="process-sum-block__form-btn" type="submit">Внести депозит</button>
+            </div>
+            <p class="process-sum-block__form-text">Принимаю <a href="#" class="process-sum-block__form-link">условия</a> </p>
+
+        </form>
+    </div>
+</div>
+<!-- ........................................................... -->
+            </div>
+        </div>
+        <div class="process__information-block">
+            <div class="row row justify-content-between">
+                <div class="col-4">
+                    <div class="process__information-block__item">
+                        <img src="images/process-1.svg" alt="Стабильность" class="process__information-block__item-img">
+                        
+                        <h4 class="process__information-block__item-title">Стабильность <br>показателей</h4>
+                        <p class="process__information-block__item-text"> За счет <br>смешанной <br>стратегии.</p>
+                    
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="process__information-block__item process__information-block__item-pd">
+                        <img src="images/process-2.svg" alt="Страхование" class="process__information-block__item-img">
+                        <h4 class="process__information-block__item-title">Страхование <br>депозита</h4>
+                        <p class="process__information-block__item-text"> К каждому депозиту<br> прилагается официальный <br>договор</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="process__information-block__item process__information-block__item-pd">
+                        <img src="images/procces-3.svg" alt="Возможность" class="process__information-block__item-img">
+                        <h4 class="process__information-block__item-title">Возможность экстренного <br>снятия депозита</h4>
+                        <p class="process__information-block__item-text"> В данном случае удерживается <br>10% от депозита и доходность<br> за текущий период.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- ------------------------------------------ -->
+        <!--  фондовый процес-->
+
+        <div class="stock-process d-none">
+            <div class="process__info-block">
+                <img src="images/hybrid-1.svg" alt="фондовый процесс" class="process__info-block-img">
+                <div class="process__info-block__text-wrapper">
+                    <span class="process__info-block__text">Используемые инструменты:</span>
+                    <p class="process__info-block__title">Внутридневная торговля | Среднесрочные позиции | Долгосрочные позиции.</p>
+                </div>
+            </div>
+            <div class="row process-deposit">
+                <div class="col-8">
+                    <div class="procces__number-block">
+                        <div class="procces__number-block__wrapper">
+                            <span class="procces__number-block__wrapper-year">1 год : </span>
+                            <span class="procces__number-block__wrapper-number-blue">25%</span><span class="blue">годовых</span>
+                        </div>
+                    </div>
+                    <div class="process__text-block">
+            
+                        <p>Доходность начисляется каждый календарный квартал.</p>
+                        <div class="process__text-block__file-wrapper">
+                            <span>Доступен с фазы : 1</span> 
+                            <div class="mt-4">
+                            <a href="#" class="process__text-block__file-link ml-0">Подробнее о Фазах</a>
+                            <a href="#" class="process__text-block__file-link">Подробнее о Процессах</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Блок Сумма -->
+                <div class="col-4">
+                    <div class="process-sum-block">
+                        <div class="process-sum-block__header">
+                            <div class="process-sum-block__header-title">
+                                <img src="images/sum-icon.svg" alt=" СУММА" class="process-sum-block__header-title-img">
+                                СУММА
+                            </div>
+                            <div class="process-sum-block__header-btn-wrapper">
+                                <button class="process-sum-block__header-btn process-sum-block__header-btn-active"><img src="images/$.svg" alt="$" class="process-sum-block__header-btn-img"></button>
+                                <button class="process-sum-block__header-btn"> <img src="images/BTC.svg" alt="BTC" class="process-sum-block__header-btn-img"></button>
+    
+                            </div>
+                        </div>
+                
+                        <div class="process-sum-block__balance-wrapper">
+                            <span class="process-sum-block__balance-title">Баланс кошелька :</span>
+                            <span class="process-sum-block__balance-number"> $ 2.120.43</span>
+    
+                        </div>
+                        <div class="process-sum-block__form-wrapper">
+                            <form action="#" class="process-sum-block__form">
+                                <input type="text" class="process-sum-block__form-input process-sum-block__form-input-mobi" placeholder="min $10">
+                                <div class="process-sum-block__form-btn-wrapper">
+                                    <button class="process-sum-block__form-btn" type="submit">Внести депозит</button>
+                                </div>
+                                <p class="process-sum-block__form-text">Принимаю <a href="#" class="process-sum-block__form-link">условия</a> </p>
+    
+                            </form>
+                        </div>
+                    </div>
+    
+    <!-- Блок суммы ВТС -->
+    
+    <div class="process-sum-block d-none">
+        <div class="process-sum-block__header">
+            <div class="process-sum-block__header-title">
+                <img src="images/sum-icon.svg" alt=" СУММА" class="process-sum-block__header-title-img">
+                СУММА
+            </div>
+            <div class="process-sum-block__header-btn-wrapper">
+                <button class="process-sum-block__header-btn"><img src="images/$.svg" alt="$" class="process-sum-block__header-btn-img"></button>
+                <button class="process-sum-block__header-btn process-sum-block__header-btn-active"> <img src="images/BTC.svg" alt="BTC" class="process-sum-block__header-btn-img"></button>
+    
+            </div>
+        </div>
+    
+        <div class="process-sum-block__balance-wrapper">
+            <span class="process-sum-block__balance-title">Баланс кошелька :</span>
+            <span class="process-sum-block__balance-number"> <span class="process-sum-block__balance-number__btc">0,154</span> BTC ≈$ 2.120.43</span>
+    
+        </div>
+        <div class="process-sum-block__form-wrapper">
+            <form action="#" class="process-sum-block__form">
+                <input type="text" class="process-sum-block__form-input" placeholder="min $10">
+                <div class="process-sum-block__form-btn-wrapper">
+                    <button class="process-sum-block__form-btn" type="submit">Внести депозит</button>
+                </div>
+                <p class="process-sum-block__form-text">Принимаю <a href="#" class="process-sum-block__form-link">условия</a> </p>
+    
+            </form>
+        </div>
+    </div>
+    <!-- ........................................................... -->
+                </div>
+            </div>
+            <div class="process__information-block">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/process-4.svg" alt="Фиксированная" class="process__information-block__item-img pl-0">
+                            
+                            <h4 class="process__information-block__item-title">Фиксированная <br>ставка</h4>
+                            <p class="process__information-block__item-text"> Доходность <br>процесса четко<br> регламентирована.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/process-2.svg" alt="Страхование" class="process__information-block__item-img pl-0">
+                            <h4 class="process__information-block__item-title">Страхование <br>депозита</h4>
+                            <p class="process__information-block__item-text"> К каждому депозиту<br> прилагается официальный <br>договор</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/process-5.svg" alt="Приоритет" class="process__information-block__item-img pl-0">
+                            <h4 class="process__information-block__item-title">Приоритет <br>пользователя</h4>
+                            <p class="process__information-block__item-text"> В первую очередь формируется <br>прибыль пользователя, затем <br>управляющей компании.</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/procces-3.svg" alt="Возможность" class="process__information-block__item-img pl-0">
+                            <h4 class="process__information-block__item-title">Возможность экстренного <br>снятия депозита</h4>
+                            <p class="process__information-block__item-text"> В данном случае удерживается <br>10% от депозита и доходность<br> за текущий период.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <!-- ----------------------------------------------- -->
+        <!-- Кпиптовалютный процесс -->
+
+        <div class="cryptocurrency-process">
+            <div class="process__info-block">
+                <img src="images/Frame-19.svg" alt="Позиционная торговля." class="process__info-block-img">
+                <div class="process__info-block__text-wrapper">
+                    <span class="process__info-block__text">Используемые инструменты:</span>
+                    <p class="process__info-block__title">Позиционная торговля.</p>
+                </div>
+            </div>
+            <div class="row process-deposit">
+                <div class="col-8">
+                    <div class="procces__number-block">
+                        <div class="procces__number-block__wrapper">
+                            <span class="procces__number-block__wrapper-year">1 год : </span><span class="gold">до</span>
+                            <span class="procces__number-block__wrapper-number-gold">300%</span><span class="gold">годовых</span>
+                        </div>
+                    </div>
+                    <div class="process__text-block">
+                        <p>51% от доходности управляющей компании.</p>
+            
+                        <p>Доходность начисляется каждый календарный квартал.</p>
+                        <div class="process__text-block__file-wrapper">
+                            <span>Доступен с фазы : 1</span> 
+                        
+                            <a href="#" class="process__text-block__file-link">Подробнее о Фазах</a>
+                            <a href="#" class="process__text-block__file-link">Подробнее о Процессах</a>
+                        
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Блок Сумма -->
+                <div class="col-4">
+                    <div class="process-sum-block">
+                        <div class="process-sum-block__header">
+                            <div class="process-sum-block__header-title">
+                                <img src="images/sum-icon.svg" alt=" СУММА" class="process-sum-block__header-title-img">
+                                СУММА
+                            </div>
+                            <div class="process-sum-block__header-btn-wrapper">
+                                <button class="process-sum-block__header-btn process-sum-block__header-btn-active"><img src="images/$.svg" alt="$" class="process-sum-block__header-btn-img"></button>
+                                <button class="process-sum-block__header-btn"> <img src="images/BTC.svg" alt="BTC" class="process-sum-block__header-btn-img"></button>
+    
+                            </div>
+                        </div>
+                
+                        <div class="process-sum-block__balance-wrapper">
+                            <span class="process-sum-block__balance-title">Баланс кошелька :</span>
+                            <span class="process-sum-block__balance-number"> $ 2.120.43</span>
+    
+                        </div>
+                        <div class="process-sum-block__form-wrapper">
+                            <form action="#" class="process-sum-block__form">
+                                <input type="text" class="process-sum-block__form-input" placeholder="min $10">
+                                <div class="process-sum-block__form-btn-wrapper">
+                                    <button class="process-sum-block__form-btn" type="submit">Внести депозит</button>
+                                </div>
+                                <p class="process-sum-block__form-text">Принимаю <a href="#" class="process-sum-block__form-link">условия</a> </p>
+    
+                            </form>
+                        </div>
+                    </div>
+    
+    <!-- Блок суммы ВТС -->
+    
+    <div class="process-sum-block d-none">
+        <div class="process-sum-block__header">
+            <div class="process-sum-block__header-title">
+                <img src="images/sum-icon.svg" alt=" СУММА" class="process-sum-block__header-title-img">
+                СУММА
+            </div>
+            <div class="process-sum-block__header-btn-wrapper">
+                <button class="process-sum-block__header-btn"><img src="images/$.svg" alt="$" class="process-sum-block__header-btn-img"></button>
+                <button class="process-sum-block__header-btn process-sum-block__header-btn-active"> <img src="images/BTC.svg" alt="BTC" class="process-sum-block__header-btn-img"></button>
+    
+            </div>
+        </div>
+    
+        <div class="process-sum-block__balance-wrapper">
+            <span class="process-sum-block__balance-title">Баланс кошелька :</span>
+            <span class="process-sum-block__balance-number"> <span class="process-sum-block__balance-number__btc">0,154</span> BTC ≈$ 2.120.43</span>
+    
+        </div>
+        <div class="process-sum-block__form-wrapper">
+            <form action="#" class="process-sum-block__form">
+                <input type="text" class="process-sum-block__form-input" placeholder="min $10">
+                <div class="process-sum-block__form-btn-wrapper">
+                    <button class="process-sum-block__form-btn" type="submit">Внести депозит</button>
+                </div>
+                <p class="process-sum-block__form-text">Принимаю <a href="#" class="process-sum-block__form-link">условия</a> </p>
+    
+            </form>
+        </div>
+    </div>
+    <!-- ........................................................... -->
+                </div>
+            </div>
+            <div class="process__information-block">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/process-6.svg" alt="Высокая доходность" class="process__information-block__item-img pl-0">
+                            
+                            <h4 class="process__information-block__item-title">Высокая <br>доходность</h4>
+                            <p class="process__information-block__item-text"> До 500% годовых, которые <br>управляющая компания<br> делит с пользователем.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/process-2.svg" alt="Страхование" class="process__information-block__item-img pl-0">
+                            <h4 class="process__information-block__item-title">Страхование <br>депозита</h4>
+                            <p class="process__information-block__item-text"> К каждому депозиту<br> прилагается официальный <br>договор</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/process-7.svg" alt="Прозрачность сделок" class="process__information-block__item-img pl-0">
+                            <h4 class="process__information-block__item-title">Прозрачность <br>сделок</h4>
+                            <p class="process__information-block__item-text"> По итогам года управляющая<br> компания предоставляет <br>торговый отчет.</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="process__information-block__item">
+                            <img src="images/procces-3.svg" alt="Возможность" class="process__information-block__item-img pl-0">
+                            <h4 class="process__information-block__item-title">Возможность экстренного <br>снятия депозита</h4>
+                            <p class="process__information-block__item-text"> В данном случае удерживается <br>10% от депозита и доходность<br> за текущий период.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <!-- ----------------------------------------------- -->
+
+        <!-- ------------------------------------------------- -->
+    
+    </div>
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

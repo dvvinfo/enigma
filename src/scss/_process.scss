@@ -1,0 +1,444 @@
+@import 'vars';
+.deposit-block{
+   margin-top: 2.5rem;
+    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    .deposit__title-wrapper{
+        padding: 1rem;
+
+        
+    }
+
+
+}
+.deposit-block__btn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Enigmo';
+    border: none;
+    color: $gray;
+    text-transform: uppercase;
+    &:active{
+        border: none;
+        outline: none;
+    }
+    &:focus{
+        border: none;
+        outline: none;
+    }
+
+    .deposit-block__btn-img{
+        padding-right: 0.625rem;
+    }
+    .deposit-block__btn-arrow{
+        padding-left: 0.875rem;
+    }
+}
+.process__btn-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+
+    .process__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 224px;
+        height: 58px;
+        background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+        box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: $green;
+        margin-right: 1.125rem;
+        border: none;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .process__btn-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 58px;
+        background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+        box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: $green;
+        margin-right: 1.5625rem;
+        border: none;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .process__btn-active{
+        background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), $black;
+        box-shadow: inset -7px -7px 10px rgba(43, 43, 43, 0.3), inset 7px 7px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+.process__img-block{
+    max-width: 705px;
+    height: 447px;
+    margin: 0 auto;
+    margin-top: 7.375rem;
+    background: url(../images/Group159.png) no-repeat;
+    background-size: contain;
+}
+.process__info-block{
+    display: flex;
+    align-items: flex-start;
+    height: 90px;
+    margin-top: 3.375rem;
+    margin-bottom: 2.1875rem;
+    border-bottom: 2px solid #000000;
+    .process__info-block-img{
+        margin-right: 1.75rem;
+    }
+    .process__info-block__text-wrapper{
+        padding-top: 0.625rem;
+        background: url(../images/EnigmoCrypto-1.png) no-repeat ;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+
+        .process__info-block__text{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 18px;
+            color: $gray;
+        }
+        .process__info-block__title{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            margin-top: 0.5625rem;
+
+        }
+    }
+}
+.process-deposit{
+    padding-bottom: 2.1875rem;
+    border-bottom: 2px solid #000000;
+
+}
+.procces__number-block{
+    margin-top: 2.5rem;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 1.875rem;
+
+    .procces__number-block__wrapper-year{
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 18px;
+        color: $gray;
+        font-family: 'Enigmo';
+    }
+    .procces__number-block__wrapper-number{
+        font-weight: 500;
+        font-size: 82px;
+        line-height: 18px;
+        color: $green_text;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    .procces__number-block__wrapper-number-blue{
+        font-weight: 500;
+        font-size: 82px;
+        line-height: 18px;
+        color: $blue;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    .procces__number-block__wrapper-number-gold{
+        font-weight: 500;
+        font-size: 82px;
+        line-height: 18px;
+        color: $gold;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    .green{
+        font-size: 24px;
+        line-height: 18px;
+        color: $green_text;
+
+    }
+    .blue{
+        font-size: 24px;
+        line-height: 18px;
+        color: $blue;
+    }
+    .gold{
+        font-size: 24px;
+        line-height: 18px;
+        color: $gold;
+    }
+}
+.process__text-block{
+    margin-top: 1.875rem;
+    p{
+        padding-bottom: 1.875rem;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: $gray;
+        &:last-child{
+            padding-bottom: 0;
+
+        }
+    }
+    .process__text-block__file-wrapper{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        .process__text-block__file-link{
+            margin-left: 2.1875rem;
+            margin-right: 2.1875rem;
+            color: $green_text;
+            &:hover{
+                text-decoration: underline;
+                color: $green;
+            }
+        }
+    }
+}
+.process-sum-block__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .process-sum-block__header-title{
+        font-family: 'Enigmo';
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        margin-right: 1.25rem;
+        color: $gray;
+
+        .process-sum-block__header-title-img{
+            padding-right: 0.6875rem;
+        }
+
+    }
+    .process-sum-block__header-btn-wrapper{
+        display: flex;
+    }
+    .process-sum-block__header-btn{
+        width: 75px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), $black;
+        box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+    .process-sum-block__header-btn-active{
+        background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), $black;
+        box-shadow: inset -7px -7px 10px rgba(43, 43, 43, 0.3), inset 7px 7px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    
+}
+.process-sum-block__balance-wrapper{
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    .process-sum-block__balance-title{
+        
+        color: $gray;
+    }
+    .process-sum-block__balance-number{
+        color: #087464;
+
+    }
+}
+.process-sum-block__form-input{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background: $black;
+    box-shadow: inset -4px -4px 10px rgba(66, 66, 66, 0.25), inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    color: $gray;
+    border: none;
+    &::placeholder{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+
+}
+.process-sum-block__form-btn-wrapper{
+    margin-top: 1.75rem;
+    margin-bottom: 0.625rem;
+    .process-sum-block__form-btn{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $black;
+       border: 1px solid $green;
+       box-sizing: border-box;
+       border-radius: 10px;
+       font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: $green_text;
+        &:hover{
+            border: 1px solid $green_text;
+        }
+
+    }
+
+}
+.process-sum-block__form-text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #D6EBE6;
+}
+.process-sum-block__form-link{
+    color: #D6EBE6;
+    text-decoration: underline;
+    &:hover{
+        color: #D6EBE6;
+        text-decoration: none;
+    }
+}
+.process__information-block{
+    padding-top: 3.0625rem;
+    padding-bottom: 3.0625rem;
+    background: url(../images/D6.png) no-repeat;
+    background-size: cover;
+
+}
+.process__information-block__item{
+  
+
+    .process__information-block__item-title{
+        margin-top:1.875rem ;
+        margin-bottom: 1.25rem;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: $gray;
+        display: block;
+        margin: o auto;
+       
+        
+        
+
+    }
+    .process__information-block__item-text{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        display: block;
+        
+      
+
+    }
+    .process__information-block__item-img{
+        display: block;
+        padding-left: 1.25rem;
+    }
+    
+   
+}
+.process__information-block__item-pd{
+    padding-left: 30px;
+}
+.process-sum-block__balance-number__btc{
+    font-size: 16px;
+    color: #087464;
+}
+.deposit-block__content{
+    padding-top: 1.25rem;
+    display: none;
+}
+.deposit-block__content-table{
+    color:$gray;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    td, th ,thead th{
+        border-top: none;
+        border-bottom: 1px solid #000000;;
+    }
+
+    .deposit-block__content-table-title{
+        font-size: 15px;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        
+        
+    }
+    .deposit-block__content-table-tr{
+        text-align: center;
+    }
+
+}
+.table-input{
+    display: none;
+}
+.table-input+.table-lalbel{
+    font-size: 20px;
+  cursor: pointer;
+  padding-left: 28px;
+  position: relative;
+}
+.table-lalbel{
+  
+}
+.table-lalbel::before{
+    content: "";
+  left: 0;
+  top: -7px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  background: linear-gradient(153.87deg, #3B3B3C 5.8%, #000000 69.77%);
+transform: rotate(-180deg);
+  border-radius: 100%;
+  transition: all 0.3s ease;
+
+}
+.table-input:checked+.table-lalbel::before{
+    background: linear-gradient(180deg, #42BDAA 0%, #0A5244 100%);
+}
+.deposit-block__content-table-link{
+    font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: $gray;
+margin-left: 24px;
+
+}
+.deposit-block__content-table-link-active{
+    color: #30C4AE;
+}
