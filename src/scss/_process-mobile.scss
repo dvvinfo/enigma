@@ -58,7 +58,7 @@
 }
 .process__btn-block-mobi {
     max-width: 386px;
-    margin: 0  auto;
+    margin: 1.6875rem  auto 0 auto;
 }
 .process__info-block__mobi{
     margin-top: 1.25rem;
@@ -184,4 +184,7 @@
             margin-top: 0.75rem;
         }
     }
+}
+.process-sum-block__balance-number__btc-mobi{
+    font-size: 22px;
 }
