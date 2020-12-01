@@ -43,11 +43,18 @@
 //!MEDIA: 767
 
 //MEDIA: 639
-@media screen and (max-width: 639px) {}
+@media screen and (max-width: 639px) {
+    
+}
 
 //!MEDIA: 639
 
 //MEDIA: 369
+@media screen and (max-width: 480px) {
+    .balance-block__number-mobi{
+        font-size: 22px;
+    }
+}
 @media screen and (max-width: 369px) {}
 
 //!MEDIA: 369 

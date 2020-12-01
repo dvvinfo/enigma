@@ -1,0 +1,186 @@
+@import 'vars';
+
+.users-block-mobi{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 		1.5625rem;
+}
+.users-block__avatar-wrapper-mobi{
+    width: 58px;
+    height: 57px;
+    margin-right: 0.9375rem;
+   
+}
+.users-block__phase-wrapper-mobi{
+    display: flex;
+    align-self: center;
+    padding-top: 0.9375rem;
+}
+.users-block__phase-number-mobi{
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 0.375rem;
+    color: $green;
+}
+.users-block__position-mobi{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: $gray;
+    padding-left: 1.25rem;
+}
+.dashboard__operations-mobi{
+    background: linear-gradient(146.55deg, #171717 6.05%, #1C1C1D 103.55%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.25rem 0.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $gray;
+}
+.dashboard-mobi__btn{
+    width: 160px;
+    height: 45px;
+    border: 1px solid $green_mobi;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 16px;
+    color: $green_mobi;
+    background-color: transparent;
+    .dashboard-mobi__btn-link{
+        color: $green_mobi;
+    }
+    .dashboard-mobi__btn-img{
+        padding-right: 	0.75rem;
+    }
+    
+}
+.dashboard__operations__balance__title-wrapper-mobi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.dashboard__operations__balance__title-mobi{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 0.3125rem;
+}
+.balance-block__number-mobi{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 0.625rem;
+    span {
+        font-size: 14px;
+    }
+}
+.dashboard__process-mobi{
+    margin-top: 1rem;
+    background: linear-gradient(146.55deg, #171717 6.05%, #1C1C1D 103.55%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.25rem 0.9375rem;
+}
+.process-block__content__item-title-dashboard__title-mobi{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 0.9375rem;
+    padding-right: 1.25rem;
+    color: $green;
+}
+.process-block__content__item-title-dashboard__title-mobi-green{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 0.9375rem;
+    padding-right: 1.25rem;
+    color: #5E968D;
+}
+.process-block__content__item-title-dashboard__title-mobi-brown{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 0.9375rem;
+    padding-right: 1.25rem;
+    color: #727161;
+}
+.dashboard-small{
+    font-size: 12px;
+    padding-left: 0.3125rem;
+}
+.dashboard__structure-mobi{
+    margin-top: 1rem;
+    background: linear-gradient(146.55deg, #171717 6.05%, #1C1C1D 103.55%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.25rem 0.9375rem;
+}
+.structure-block__quantity-wrapper-mobi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 	1.5625rem;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: $gray;
+    span{
+        font-weight: 300;
+        font-size: 20px;
+        
+    }
+}
+.structure-block__quantity-title-wrapper{
+    display: flex;
+    align-items: center;
+    span{
+        padding-left: 0.625rem;
+        font-weight: 300;
+        font-size: 15px;
+        
+    }
+}
+.training-block-mobi{
+    margin-top: 1rem;
+    background: linear-gradient(146.55deg, #171717 6.05%, #1C1C1D 103.55%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.25rem 0.9375rem;
+}
+.training-block__content-mobi{
+    padding: 2.5rem 0 2.5rem 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+}
+.training-block__conten-link-mobi{
+    font-size: 14px;
+    color: $green_text;
+}
+.training-block__conten-btn__link-mobi{
+    width: 190px;
+    height: 42px;
+    background: 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #30c4ae;
+}
