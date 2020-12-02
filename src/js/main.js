@@ -13,4 +13,9 @@ $(document).ready(function(){
 		$('.deposit-block__content').slideToggle(300);      
 		return false;
 	});
+	$('.burger').click(function(event){
+		$('.menu,.burger__line').toggleClass('active'); 
+		$('.burger__line-1').toggleClass('active-1');   
+		
+	});
 });

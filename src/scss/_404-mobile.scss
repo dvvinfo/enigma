@@ -1,0 +1,99 @@
+.not-found__wrapper-mobi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.sing-in__wrapper-mobi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.сonfirm-password__wrappe-mobi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.not-found__block-mobi,.sing-in__block-telegram-mobi{
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $black;
+}
+.сonfirm-password__block-mobi{
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $black;
+    padding-bottom:3.4375rem ;
+}
+.sing-in__block-mobi{
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $black;
+    padding-bottom:3.4375rem ;
+}
+.сonfirm-password__block-img-mobi,.sing-in__block-img-mobi {
+    padding-top: 3.3125rem;
+    padding-bottom: 2.3125rem;
+}
+.header-img{
+    max-width: 414px;
+    
+}
+.footer-img{
+    max-width: 414px;
+   
+    img{
+        width: 100%;
+    }
+}
+.not-found__block-link-wrapper{
+    padding-bottom: 5.375rem;
+}
+.not-found__number-wrapper-mobi{
+    padding-top: 5.875rem;
+    padding-bottom: 4.125rem
+}
+.sing-in__block-img-telegram-mobi{
+    padding-top: 5.5625rem;
+    padding-bottom: 5.5625rem;
+}
+.sing-in__block-link-mobi{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #30c4ae;
+    text-decoration: none;
+    padding-bottom: 7rem;
+    display: block;
+    
+}
+.сonfirm-password__block-form__input-mobi{
+    width: 330px;
+    height: 64px;
+    background: rgb(19, 19, 19);
+    border-radius: 5px;
+    border: none;
+    padding: 0.625rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(140, 156, 154);
+    
+}
