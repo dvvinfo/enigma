@@ -18,4 +18,11 @@ $(document).ready(function(){
 		$('.burger__line-1').toggleClass('active-1');   
 		
 	});
+
+	$('#notifications').click(function(event){
+		$('.notifications-overlay').toggleClass('notifications-active'); 
+		return false;
+		  
+		
+	});
 });

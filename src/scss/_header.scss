@@ -2,7 +2,7 @@
     margin-top: 95px;
 }
 .header__wrapper{
-    width: 946px;
+    max-width: 946px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -12,6 +12,7 @@
 .header__icons {
     display: flex;
     align-items: center;
+    position: relative;
 }
 .header__icons-img{
      padding-right: 3.75rem;

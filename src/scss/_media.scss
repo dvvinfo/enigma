@@ -33,7 +33,18 @@
 //!MEDIA: 1023
 
 //MEDIA: 991
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
+    .row-custom{
+        flex-direction: column;
+    }
+    .setting-block__content-form-item{
+        margin-right: 1.875rem;
+    }
+    
+    .header__icons-img {
+        padding-right: 1.875rem;
+    }
+}
 
 //!MEDIA: 991
 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Настройки">
+	<meta name="keywords" content="Enigmo, Финансовая Платформа">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Настройки</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__wrapper">
+        <div class="logo">
+            <img src="images/Enigmo Logo.svg" alt="enigmo" class="logo__img">
+            <span class="logo__text">Финансовая Платформа</span>
+        </div>
+        <div class="header__icons">
+            <a href="#" class="header__icons-link" id="notifications"><img src="images/default.svg" alt="Уведомления" class="header__icons-img"></a>
+            <a href="#" class="header__icons-link"><img src="images/setting.svg" alt="Настройки" class="header__icons-img"></a>
+            <a href="#" class="header__icons-link"><img src="images/news.svg" alt="Новости" class="header__icons-img"></a>
+            <div class="header__login">
+                <a href="#" class="header__icons-link"><img src="images/login.svg" alt="Вход" class="header__login-img"></a>
+            </div>
+            
+            <!-- Уведомление блок -->
+            <div class="notifications-overlay">
+                <div class="notifications-overlay__header">
+                <div class="notifications-block__btn-wrapper">
+                    <button class="notifications-block__btn"><a href="#" class="notifications-block__btn-lihk">Настроить</a></button>
+                </div>
+                </div>
+          
+            
+                <div class="notifications-overlay__item">
+                    <div class="notifications-overlay__item__img-wrapper">
+                    <img src="images/icon_video.svg" alt="">
+                    </div>
+                
+                    <span class="notifications-overlay__item-text">Добро пожаловать на платформу! <a href="#" class="notifications-overlay__item-link">Посмотреть видео-обзор ></a></span>
+                </div>
+                    <div class="notifications-overlay__item">
+                        <div class="notifications-overlay__item__img-wrapper">
+                        <img src="images/1.svg" alt="">
+                        </div>
+                        <span class="notifications-overlay__item-text">Кошелек пополнен на 777$. <a href="#" class="notifications-overlay__item-link">Перейти к операциям ></a></span>
+                    </div>
+                    <div class="notifications-overlay__footer">
+                        <button class="notifications-overlay__footer-btn"><a href="#" class="notifications-overlay__footer-btn__link">Настроить Уведомления</a></button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- ------------- -->
+        </div>
+    </header></div>
+
+        <div class="wrapper-content">
+            <div class="setting-block">
+                
+                <div class="setting-block__title-wrapper">
+                     <!--        Button Back-->
+        <div class="arrow__btn-wrapper-1"><button class="arrow__btn"><a href="#" class="arrow__btn-img">
+            <img src="images/Arrow_big.svg" alt="back" class="arrow__btn-img"></a></button>
+        </div>
+                   <div class="setting-block__title-content"><img src="images/setting.svg" alt="Настройки профиля">
+                    <h1 class="setting-block__title">Настройки профиля</h1>
+                </div> 
+                </div>
+                <div class="setting-block__content">
+                    <div class="row-custom">
+                        
+                            <div class="setting-block__content__avatar-block">
+                                <div class="setting-block__content__avatar-wrapper">
+                                    <input type="file" class="setting-block__content__avatar-input" id="avatar-input">
+                                    <label for="avatar-input" class="setting-block__content__avatar-label">
+                                    <img src="images/avatar-setting.png" alt="avatar " class="setting-block__content__avatar-img">
+                                    <span class="setting-block__content__avatar-label__text">Загрузить фотографию</span>
+                                </label>
+                                </div>
+                                <a href="#" class="setting-block__content__avatar-link">Привязать Telegram</a>
+                                <button class="setting-block__content__avatar-btn"><a href="#" class="setting-block__content__avatar__link">Настроить Уведомления</a></button>
+
+                            </div>
+                        
+                        
+                            <div class="setting-block__content-form-block">
+                                <form action="#" class="setting-block__content-form">
+                                    <div class="setting-block__content-form-item">
+                                        <h4 class="setting-block__content-form__title">Личная информация</h4>
+                                        <input type="text" name="name" placeholder="Имя" class="setting-block__content-form__input">
+                                        <input type="text" name="surname" placeholder="Фамилия" class="setting-block__content-form__input">
+                                        <input type="email" name="email" placeholder="E-mail" class="setting-block__content-form__input">
+                                        <input type="text" name="tel" placeholder="Телефон" class="setting-block__content-form__input mb-0">
+                                    </div>
+                                    <div class="setting-block__content-form-item">
+                                        <h4 class="setting-block__content-form__title">Сменить пароль</h4>
+                                        <input type="password" name="old_password" placeholder="Старый пароль" class="setting-block__content-form__input">
+                                        <input type="password" name="new_password" placeholder="Новый пароль" class="setting-block__content-form__input">
+                                        <input type="password" name="repeat_new_password" placeholder="Повторить новый пароль" class="setting-block__content-form__input">
+                                        <button type="submit" class="setting-block__content-form__btn">Сохранить</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
