@@ -1,5 +1,5 @@
 @import 'vars';
-.menu {
+.menu-header {
     color: $gray;
     width: 100%;
     display: none;
@@ -99,6 +99,6 @@ margin-left: 	0.8125rem;
     
    
 }
-.menu.active{
+.menu-header.active{
 display: block;
 }

@@ -14,7 +14,7 @@ $(document).ready(function(){
 		return false;
 	});
 	$('.burger').click(function(event){
-		$('.menu,.burger__line').toggleClass('active'); 
+		$('.menu-header,.burger__line').toggleClass('active'); 
 		$('.burger__line-1').toggleClass('active-1');   
 		
 	});
