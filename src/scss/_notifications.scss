@@ -9,6 +9,7 @@
     padding: 0.9375rem;
     display: flex ;
     align-items: center;
+    height: 58px;
 }
 .notifications__title{
     font-size: 18px;
@@ -168,4 +169,10 @@
     .notifications-overlay__footer-btn__link{
         color: $green_text;
     }
+}
+.arrow__btn-wrapper-2{
+    margin-left: -101px;
+  
+    width: 58px;
+    height: 58px;
 }
