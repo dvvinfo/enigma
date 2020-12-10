@@ -1,0 +1,64 @@
+@import 'vars';
+
+.fqa-block__title-wrapper-mobi{
+    display: flex;
+    align-items: center;
+}
+.fqa-block__title-img-mobi{
+    margin-right: 0.75rem;
+}
+.fqa-block__content-mobi{
+    margin-top: 3.75rem;
+    
+}
+.fqa-block__content__item__title-mobi{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: $white;
+    padding-left: 1.125rem;
+}
+.fqa-block__appeal-mobi{
+    margin-top: 4.75rem;
+    text-align: center;
+}
+.fqa-block__appeal__title-mobi{
+    font-family: 'Enigmo';
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: $gray;
+    text-align: center;
+}
+.fqa-block__appeal__form__btn-wrapper-mobi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.375rem;
+}
+.fqa-block__appeal__title-mobi_1{
+    font-family: 'Enigmo';
+    font-size: 32px;
+    line-height: 33px;
+    color: $gray;
+    margin-left: 0.9375rem;
+}
+.fqa-block__my-appeal_content-mobi{
+    margin-top: 4.0625rem;
+}
+
+.fqa-block__my-appeal_content-item__active{
+    background: #121212;
+    box-shadow: inset 7px 7px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.fqa-block__my-appeal_content-item-mobi{
+    padding: 1.25rem 1rem;
+}
+.fqa-block__my-appeal_content-item__hidden_block-wpapper-mobi{
+    margin-top: 2.5rem;
+    display: none;
+}
+.fqa-block__my-appeal_content-item__hidden_block-wpapper-mobi__active{
+    display: block;
+}

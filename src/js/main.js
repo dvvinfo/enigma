@@ -36,8 +36,21 @@ $(document).ready(function(){
 			
 		});
 		$('.fqa-block__my-appeal_content-item__title-wrapper').click(function(event){
+
+			
+			
 			$(this).find('.fqa-block__my-appeal_content-item__title__img').toggleClass('fqa-block__content__item__title-img__active'); 
 			$(this).next('.fqa-block__my-appeal_content-item__hidden_block-wpapper').toggleClass('fqa-block__content__item__hidden-wrapper__active');   
 				
 			});
+
+			$('.fqa-block__my-appeal_content-item-mobi ').click(function(event){
+
+			
+				$(this).toggleClass('fqa-block__my-appeal_content-item__active'); 
+				$(this).find('.fqa-block__my-appeal_content-item__hidden_block-wpapper-mobi').toggleClass('fqa-block__my-appeal_content-item__hidden_block-wpapper-mobi__active'); 
+				$(this).next('.fqa-block__my-appeal_content-item__title__img').toggleClass('fqa-block__content__item__title-img__active'); 
+				  
+					
+				});
 });

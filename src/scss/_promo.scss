@@ -1,0 +1,102 @@
+@import 'vars';
+
+.overlay-wrapper{
+    max-width: 975px;
+    margin: 0 auto;
+    background: url(../images//Promo.png) no-repeat  right;
+    background-size: cover;
+    padding: 1.25rem 2.8125rem 2.875rem 4.875rem;
+}
+.overlay__content__header-block{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.overlay__content__header-btn{
+    display: flex;
+    cursor: pointer;
+    align-items: center
+}
+.overlay__content__header_close-wrapper{
+    position: relative;
+    width: 47px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.overlay__content__header_close-item{
+    width: 32px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: #42BDAA;
+    display: block;
+    left: 7px ;
+    right: 0;
+    top: 20px;
+    &::before{
+        content: '';
+        width: 32px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-85deg);
+        background-color: #42BDAA;
+        display: block;
+       left: 0 ;
+        right: 0;
+    }
+}
+.overlay__content__header-text{
+    padding-left: 0.5rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: normal;
+    color: #42BDAA;
+}
+.overlay__content__block{
+    padding-top: 1rem;
+}
+.overlay__content__block-green{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px;
+    color: $green;
+}
+.overlay__content__block-title{
+  
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    color: $green;
+    text-transform: uppercase;
+}
+.overlay__content__block-news{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    color: $green;
+    text-transform: uppercase;
+}
+.overlay__content__block-text{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: $white;
+    span{
+        color: $gray;
+    }
+    
+}
+.overlay__content__block_promo-block{
+    margin-top: 	1.125rem;
+}
+.overlay__content__block_promo{
+   
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    color: $green;
+    text-transform: uppercase;
+}
