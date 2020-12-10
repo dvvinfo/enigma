@@ -25,5 +25,19 @@ $(document).ready(function(){
 		  
 		
 	});
-	
+	// $('.fqa-block__content__item__title-wrapper').click(function(event){
+	// 	$('.fqa-block__content__item__title-img').toggleClass('fqa-block__content__item__title-img__active'); 
+	// 	$('.fqa-block__content__item__hidden-wrapper').toggleClass('fqa-block__content__item__hidden-wrapper__active');   
+		
+	// });
+	$('.fqa-block__content__item__title-wrapper').click(function(event){
+		$(this).find('.fqa-block__content__item__title-img').toggleClass('fqa-block__content__item__title-img__active'); 
+		$(this).next('.fqa-block__content__item__hidden-wrapper').toggleClass('fqa-block__content__item__hidden-wrapper__active');   
+			
+		});
+		$('.fqa-block__my-appeal_content-item__title-wrapper').click(function(event){
+			$(this).find('.fqa-block__my-appeal_content-item__title__img').toggleClass('fqa-block__content__item__title-img__active'); 
+			$(this).next('.fqa-block__my-appeal_content-item__hidden_block-wpapper').toggleClass('fqa-block__content__item__hidden-wrapper__active');   
+				
+			});
 });

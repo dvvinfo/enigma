@@ -38,14 +38,22 @@
     .setting-block__content-form-item{
         margin-right: 1.875rem;
     }
-    
+    .footer-wrapper__links-block__links-item-wrapper{
+        margin-right: 2.5rem;
+
+    }
     
 }
 
 //!MEDIA: 991
 
 //MEDIA: 767
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .footer-wrapper__links-block__links-item-wrapper{
+        margin-right: 2rem;
+
+    }
+}
 
 //!MEDIA: 767
 
