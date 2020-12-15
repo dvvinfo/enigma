@@ -1,0 +1,17 @@
+.replenish-block_mt{
+    margin-top: 0!important;
+}
+@media screen and (max-width: 375px) {
+    .dashboard-mobi__btn{
+        width: auto;
+    }
+    .users-block-mobi{
+        padding-left: .9375rem;
+    }
+    .users-block__phase{
+        padding-left: 0.625rem;
+    }
+    .users-block__title{
+        font-size: 16px;
+    }
+}

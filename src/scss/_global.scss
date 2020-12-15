@@ -71,17 +71,22 @@ body{
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.2px;
+    min-height: 100%;
+    position: relative;
+    
 }
 .wrapper{
     max-width: 1440px;
-    margin:
-    0 auto;
+    margin:0 auto;
     position: relative;
-    padding-bottom: 1.25rem;
+    padding-bottom: 12.5rem;
+    min-height: 100%;
 }
 .wrapper-content{
     max-width: 946px;
-    margin: 0 auto;
+    margin: 0 auto ;
+    padding-bottom: 3.75rem ;
+    
 }
 button:focus{
     border:1px solid #067362;;

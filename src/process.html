@@ -9,14 +9,19 @@
 <body>
     <div class="wrapper">
     @@include('components/page/_2_header.html')
-    <div class="wrapper-content">
+    <div class="wrapper-content process-bg">
         
                                     
         <div class="deposit-block">
          
             <div class="deposit__title-wrapper">
+                                     <!--        Button Back-->
+        <div class="arrow__btn-wrapper-2"><button class="arrow__btn"><a href="#" class="arrow__btn-img">
+            <img src="images/Arrow_big.svg" alt="back" class="arrow__btn-img"></a></button>
+        </div>
+        <div class="deposit-block__btn-wrapper">
                 <button class="deposit-block__btn"><img src="images/process.svg" alt="ДЕПОЗИТЫ" class="deposit-block__btn-img ">ДЕПОЗИТЫ <img src="images/Vector.svg" alt="Arrow" class="deposit-block__btn-arrow"></button>
-
+            </div>
             </div>
             
         </div>
@@ -478,6 +483,7 @@
         <!-- ------------------------------------------------- -->
     
     </div>
+    @@include('components/page/_3_footer.html')
     </div>
     @@include('components/page/_4_scripts.html')
 </body>

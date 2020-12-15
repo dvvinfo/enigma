@@ -1,0 +1,97 @@
+@import 'vars';
+
+.nodepo-wpapper{
+    display: flex;
+    margin-top: 2.5rem;
+    align-items: flex-start;
+    margin-bottom: 3.75rem;
+}
+.nodepo__block{
+    background: linear-gradient(150.37deg, $black 5.51%, #1C1C1D 94.38%), $black ;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2.625rem 1rem 2.875rem 1rem;
+    margin-left: 2.5rem;
+}
+.nodepo__block__title{
+    font-size: 18px;
+    line-height: 18px;
+    color: $red;
+}
+.nodepo__block__text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+    padding:  2.625rem 0;
+}
+.nodepo__block__btn{
+    width: 190px;
+    height: 45px;
+    border: 1px solid $green;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $green_text;
+    background-color: transparent;
+    &:hover{
+        border: 1px solid $green_text;
+    }
+}
+.nodepo__block__btn-link{
+    color: $green_text;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.nodepo__block__btn-mobi{
+    width: 250px;
+    height: 48px;
+    border: 1px solid $green;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $green_text;
+    background-color: transparent;
+    &:hover{
+        border: 1px solid $green_text;
+    }
+}
+.height-vh{
+    height: 100vh;
+}
+.nodepo__block-mobi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 414px;
+    text-align: center;
+    margin-top: 4.5rem;
+}
+.nodepo__block__btn-wrapper{
+    margin-top: 	2.875rem;
+}
+.nodepo__block__text-mobi{
+    display: block;
+    max-width: 230px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+    padding:  2.625rem 0;
+    text-align: center;
+}

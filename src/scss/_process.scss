@@ -4,11 +4,18 @@
     background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
     box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    height: 58px;
 
     .deposit__title-wrapper{
-        padding: 1rem;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+       
 
         
+    }
+    .deposit-block__btn-wrapper{
+        margin-left: 40px;
     }
 
 
@@ -442,3 +449,9 @@ margin-left: 24px;
 .deposit-block__content-table-link-active{
     color: #30C4AE;
 }
+.process-bg{
+    background: url(../images/Process-Crypto.png) no-repeat bottom;
+    background-size: cover;
+}
+
+
