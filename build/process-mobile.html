@@ -14,14 +14,12 @@
     <div class="wrapper-mobi">
         <div class="wrapper-content-mobi">
             <header class="header-mobi">
-                <div class="deposit-block-mobi">
-         
-                    <div class="deposit__title-wrapper">
-                        <button class="deposit-block__btn"><img src="images/process.svg" alt="ДЕПОЗИТЫ" class="deposit-block__btn-img">ДЕПОЗИТЫ <img src="images/Vector.svg" alt="Arrow" class="deposit-block__btn-arrow"></button>
-        
+                <div class="deposit-block__chart-wrapper">
+                    <div class="deposit-block__chart">
+<!-- место для диаграммы -->
                     </div>
-                    
                 </div>
+                
                 <div class="header-mobi__btn-wrapper">
                     <!-- <button class="header-mobi__btn"><img src="images/burger-icon.svg" alt=""></button> -->
                     <div class="burger">
@@ -50,8 +48,16 @@
 
             
              <!-- таблица -->
+             <div class="deposit-block-mobi mt-0">
+         
+                <div class="deposit__title-wrapper">
+                    <button class="deposit-block__btn"><img src="images/process.svg" alt="ДЕПОЗИТЫ" class="deposit-block__btn-img">ДЕПОЗИТЫ <img src="images/Vector.svg" alt="Arrow" class="deposit-block__btn-arrow"></button>
+    
+                </div>
+                
+            </div>
         <div class="deposit-block__content pt-0">
-            <table class="table-sm deposit-block__content-table">
+            <table class="table-sm table-responsive-sm deposit-block__content-table">
                 <thead class="deposit-block__content-table-thead">
                   <tr class="deposit-block__content-table-title-mobi">
                     <th scope="col" class="text-left deposit-block__content-table-th">Тип</th>
@@ -109,17 +115,21 @@
               </table>
         </div>
         <div class="process__btn-block process__btn-block-mobi">
-            <button class="process__btn-1-mobi process__btn-active">Гибридный процесс</button>
-            <button class="process__btn-1-mobi">Фондовый процесс</button>
-            <button class="process__btn-1-mobi">Крипто<br>валютный </button>
-
+            <div class="process__btn-block__item-mobi">
+            <button class="process__btn-1-mobi process__btn-active"><img src="images/Group-275-1.svg" alt="Гибридный процесс" class="process__btn-1__img-mobi"> <span class="process__btn-1-mobi__hybrid-text">Гибридный Процесс</span></button>
+            <button class="process__btn-1-mobi mb-0"><img src="images/Group-275-3.svg" alt="Фондовый процесс" class="process__btn-1__img-mobi"><span class="process__btn-1-mobi__crypto-text">Крипто<br>Процесс</span></button>
+        </div>
+        <div class="process__btn-block__item-mobi">
+            <button class="process__btn-1-mobi"><img src="images/Group-275-2.svg" alt="Крипто процесс" class="process__btn-1__img-mobi"><span class="process__btn-1-mobi__found-text">Фондовый Процесс </span></button>
+            <button class="process__btn-1-mobi mb-0"><img src="images/Group.svg" alt="Крипто процесс" class="process__btn-1__img-mobi"><span class="process__btn-1-mobi__mining-text">Майнинг Процесс</span></button>
+</div>
 
         </div>
         
         <div class="process__img-block__mobi"></div>
          <!-- фондовый процесс -->
         
-         <div class="stock-process d-none">
+         <div class="stock-process">
              <!-- Блок информации -->
             <div class="process__information-block-mobi">
                 <div class="process__information-block__item-mobi">

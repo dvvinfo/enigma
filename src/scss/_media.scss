@@ -133,6 +133,11 @@
         padding: 0 1rem;
     }
 }
+@media screen and (max-width: 380px) {
+    .balance__info-mobi .balance_btn-block-mobi .balance_btn-mobi {
+        width: 100px;
+    }
+}
 @media screen and (max-width: 369px) {}
 
 //!MEDIA: 369 

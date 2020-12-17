@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Overlay/Payment">
+	<meta name="keywords" content="Enigmo, Финансовая Платформа">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Overlay/Payment</title>
+</head>
+<body>
+    <div class="overlay__payment-wrapper">
+        <div class="overlay__payment__btn-close">
+            <div class="overlay__content__header-btn">
+                <div class="overlay__content__header__close__small-wrapper">
+                    <span class="overlay__content__header__close__small-item"></span>
+                </div>
+                <span class="overlay__content__header-text__small">Закрыть</span>
+            </div>
+        </div>
+        <div class="overlay__payment-block">
+            <div class="overlay__payment__btn__currency-wrapper">
+                <button class="overlay__payment__btn__currency overlay__payment__btn__currency-active"><img src="images/$-payment.svg" alt="$"></button>
+                <button class="overlay__payment__btn__currency"><img src="images/BTC-payment.svg" alt="BTC"></button>
+            </div>
+            <div class="overlay__payment__input-wrapper">
+                <input type="text" class="overlay__payment__input" placeholder="min. $10" required>
+            </div>
+            <div class="overlay__payment__btn-wrapper">
+                <button class="overlay__payment__btn"><a href="#" class="overlay__payment__btn-link">Перейти к пополнению</a></button>
+            </div>
+            <div class="overlay__payment__text-wrapper">
+                <span>Принимаю <a href="#" class="overlay__payment__text-link">условия</a></span>
+            </div>
+            <div class="overlay__payment__img-wrapper">
+                <img src="images/mastercard.svg" alt="mastercard" class="overlay__payment__img">
+                <img src="images/visa.svg" alt="/visa" class="overlay__payment__img mr-0">
+            </div>
+        </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

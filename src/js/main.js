@@ -53,4 +53,10 @@ $(document).ready(function(){
 				  
 					
 				});
+
+
+			$('.overlay__payment__btn__currency').click(function(event){
+					$('.overlay__payment__btn__currency').toggleClass('overlay__payment__btn__currency-active'); 
+				
+					});
 });

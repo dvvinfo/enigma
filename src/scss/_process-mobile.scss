@@ -35,30 +35,32 @@ margin-top: 	1.875rem;
     background: #3C3B3B;
 }
 .process__btn-1-mobi {
-    width: 113px;
-    height: 86px;
+    width: 149px;
+    height: 149px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
     box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: $green_2;
     border: none;
+    margin-bottom: 	1.75rem;
 
 }
 .process__img-block__mobi{
-   max-width:  428px;
-    height: 272px;
-    margin: 2.9375rem auto 0;
+  width:  262px;
+    height: 166px;
+    margin: 0 auto ;
     background: url(../images/Group159.png)  no-repeat;
     background-size: cover;
 }
 .process__btn-block-mobi {
-    max-width: 386px;
-    margin: 1.6875rem  auto 0 auto;
+    max-width: 320px;
+    margin: 2.1875rem  auto 0 auto;
 }
 .process__info-block__mobi{
     margin-top: 1.25rem;
@@ -187,4 +189,33 @@ margin-top: 	1.875rem;
 }
 .process-sum-block__balance-number__btc-mobi{
     font-size: 22px;
+}
+.deposit-block__chart-wrapper{
+    width: 213px;
+    height: 68px;
+    background: linear-gradient(180deg, rgba(43, 42, 42, 0.39) 0%, #000000 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 4px 0px 10px rgba(164, 164, 164, 0.25), inset 0px 4px 20px rgba(0, 0, 0, 0.55);
+    border-radius: 5px
+}
+.process__btn-block__item-mobi{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.process__btn-1__img-mobi{
+    display: block;
+    margin-bottom:0.5rem ;
+}
+.process__btn-1-mobi__crypto-text{
+    color: $gold;
+}
+.process__btn-1-mobi__found-text{
+    color: $blue;
+}
+.process__btn-1-mobi__mining-text{
+    color: $purple;
 }

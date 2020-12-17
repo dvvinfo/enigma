@@ -1,0 +1,168 @@
+@import 'vars';
+
+.overlay__payment-wrapper{
+    max-width: 948px;
+    margin: 0 auto;
+    background: url(../images/Payment.png) no-repeat center ;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: $black;
+    padding-bottom: 3.125rem;
+    position: relative;
+
+}
+.overlay__payment-block{
+    max-width: 411px;
+    height: 490px;
+    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717; 
+    opacity: 0.8;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 1.5625rem;
+    padding: 3.875rem 3rem  0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.overlay__payment__btn-close{
+    position: absolute;
+    right: 20px;
+    top:25px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+.overlay__content__header__close__small-wrapper{
+    position: relative;
+    width: 25px;
+    height: 23px;
+    cursor: pointer;
+    
+}
+.overlay__content__header__close__small-item{
+    width: 32px;
+    height: 2px;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: $green;
+    display: block;
+    left: 7px;
+    right: 0;
+    top: 10px;
+    &::before{
+        content: '';
+    width: 32px;
+    height: 2px;
+    position: absolute;
+    -webkit-transform: rotate(-85deg);
+    -ms-transform: rotate(-85deg);
+    transform: rotate(-85deg);
+    background-color: $green;
+    display: block;
+    left: 0;
+    right: 0;
+    }
+}
+.overlay__content__header-text__small{
+    margin-left: 1.5rem;
+    color: $green;
+}
+.overlay__payment__btn__currency{
+    width: 73px;
+    height: 46px;
+    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    &:focus{
+        border: none;
+        outline: none;
+    }
+}
+.overlay__payment__btn__currency-wrapper{
+    display: flex;
+    align-items: center;
+}
+.overlay__payment__btn__currency-active{
+    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+box-shadow: inset -7px -7px 10px rgba(43, 43, 43, 0.3), inset 7px 7px 10px rgba(0, 0, 0, 0.6)
+}
+.overlay__payment__input-wrapper{
+    margin-top: 4.375rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay__payment__input{
+    width: 316px;
+    height: 69px;
+    background: $black;
+    box-shadow: inset -4px -4px 10px rgba(66, 66, 66, 0.25), inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: none;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 16px;
+    color: $gray;
+    vertical-align: middle;
+    text-align: center;
+    &::placeholder{
+        background: $black;
+        color: $gray;
+    }
+}
+.overlay__payment__btn{
+    border: 1px solid $green;
+    box-sizing: border-box;
+    border-radius:10px;
+    width: 250px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $green_text;
+    background-color: transparent;
+    &:hover{
+        border: 1px solid $green_text;
+    }
+    .overlay__payment__btn-link{
+        color: $green_text;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.overlay__payment__text-wrapper{
+    margin-top: 2.0625rem;
+    margin-bottom: 	1.625rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray;
+}
+.overlay__payment__text-link{
+    color: $gray;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+        color: $gray;
+    }
+}
+.overlay__payment__img{
+    margin-right: 1rem;
+    &:last-child{
+        margin-right: 1rem;
+    }
+}

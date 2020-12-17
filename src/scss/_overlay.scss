@@ -1,0 +1,102 @@
+@import 'vars';
+
+.overlay__family-wrapper{
+    width: 308px;
+    padding: 1.6875rem 	0.75rem 1.875rem 	1.3125rem;
+    background: linear-gradient(153.96deg, #171717 8.47%, #1C1C1D 88.76%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: $gray;
+}
+.overlay__family__block-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.4375rem;
+    &:first-child{
+        padding-top: 0;
+    }
+}
+.overlay__family__block-title{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $gray;
+}
+.overlay__family__block__img-wrapper{
+    width: 49px;
+    height: 49px;
+    border-radius: 100%;
+    margin-right: 2.3125rem;
+}
+.overlay__family__block__img{
+    width: 100%;
+}
+.overlay__family-wrapper-content{
+   padding-top: 2.6875rem;
+}
+.overlay__family__block-name{
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: $gray;
+    border-bottom: 1px solid #000;
+    width: 50%;
+}
+.overlay__family__block__btn-wrapper{
+    
+}
+.overlay__family__block__btn{
+    width: 122px;
+    height: 37px;
+    border: 2px solid #0A5244;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+    color: $green_text;
+    margin-bottom:	0.75rem ;
+    &:hover{
+        border: 2px solid $green_text;
+    }
+    .overlay__family__block__btn-link{
+        color: $green_text;
+    }
+    &:hover{
+        text-decoration: none;
+    }
+}
+.overlay__family__btn-wrapper{
+    margin-top: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay__support-countries-wrapper{
+    width: 300px;
+    background: url(../images/Supported-Countries.png) no-repeat;
+    background-size: cover;
+    padding: 1.8125rem 0.5rem 4.125rem 1rem;
+    color: $gray;
+}
+.overlay__support-countries__header{
+    display: flex;
+    align-items: center;
+}
+.overlay__support-countries__header-text{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 28px;
+    color: $gray;
+    padding-left: 0.5rem;
+}
+.overlay__support-countries{
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-left: 0.25rem;
+   
+}
