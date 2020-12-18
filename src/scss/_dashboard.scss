@@ -305,13 +305,15 @@ height: 270px;
         }
 }
 .training-block{
-    background: linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+    background: url(../images/Bg_education.png) no-repeat,linear-gradient(150.37deg, #171717 5.51%, #1C1C1D 94.38%), #171717;
+    background-size: cover;
     box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    height: 270px;
+    height: 286px;
     margin-top: 1.5625rem;
     padding: 1.1875rem;
     color: $gray;
+
 }
 .training-block__title-wrapper{
     display: flex;
@@ -435,4 +437,15 @@ line-height: 16px;
 .news__tex-link{
     color: $gray;
     font-size: 15px;
+}
+
+
+.dashboard__training__content-title{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3.3px;
+    color: $gray;
+    margin-top: 2.5rem;
 }

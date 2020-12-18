@@ -59,4 +59,14 @@ $(document).ready(function(){
 					$('.overlay__payment__btn__currency').toggleClass('overlay__payment__btn__currency-active'); 
 				
 					});
+
+			$('.dashboard__slider').slick({
+				infinite: true,
+  				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots: true,
+				prevArrow:'<button type="button" class="slick-prev"> <img src="../images/Arrow-prev.svg" alt="" class="slider-prev"></button>',
+				nextArrow:'<button type="button" class="slick-next"><img src="../images/Arrow-next.svg" alt="" class="slider-next"></button>'
+			});
+		
 });
