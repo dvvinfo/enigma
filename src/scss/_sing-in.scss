@@ -141,3 +141,46 @@
         border: 1px solid $green-text;
     }
 }
+.sing-in__block__btn-wrapper{
+    margin-top: 	2.125rem;
+}
+.sing-in__block__btn-wrapper__link{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: $green_text;
+    display: block;
+    margin: 0.625rem auto 0 auto;
+    text-decoration: underline;
+    text-align: center;
+    &:hover{
+        text-decoration: none;
+    }
+    
+}
+.fz{
+    font-size: 14px; 
+    line-height: 28px;
+    color: $gray;
+}
+.sing-in__block__text-up{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $gray;
+}
+.sing-in__block__btn-mobi{
+    width: 225px;
+    height: 56px;
+    background: $black;
+    border: 1px solid $green;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .sing-in__block__btn-link{
+        color: $green_text;
+    }
+}

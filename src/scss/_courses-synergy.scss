@@ -1,0 +1,119 @@
+@import 'vars';
+
+.courses-wrapper{
+    margin-top: 3.5625rem;
+}
+.courses__slider-wrapper{
+    
+}
+.courses__slider {
+    max-width: 930px;
+    margin: 0 auto;
+}
+.courses__video-block{
+    margin-top: 3.75rem;
+    display: flex;
+}
+.courses__video-player__wrapper{
+    position: relative;
+    width: 360px;
+    height: 202px;
+    padding: 1.25rem 1.5625rem;
+    background: #000;
+   
+    
+
+}
+.courses__video-player__video{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.courses__video-player_btn{
+    z-index: 6;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    background-color: transparent;
+    border: none;
+}
+.courses__video__text{
+    max-width: 529px;
+    margin-left: 2.3125rem;
+    padding-top: 1rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: $gray;
+    p{
+        margin-bottom: 	1.875rem;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+.courses__info{
+    margin-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    // background: url(../images/D7-4.png) no-repeat bottom;
+    // background-size: contain;
+}
+.courses__info__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(165.56deg, #171717 6.88%, #1C1C1D 117.75%), #171717;
+    box-shadow: -7px -7px 10px rgba(43, 43, 43, 0.3), 7px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 1.375rem;
+    height: 53px;
+}
+.courses__info__item_img-block{
+    display: flex;
+    align-items: center;
+}
+.courses__info__item_img-wrapper{
+    width: 52px;
+}
+.courses__info__item-title{
+    font-size: 18px;
+    line-height: 24px;
+    color: $gray;
+}
+.courses__info__item__process-wrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+    margin-left: 1.25rem;
+    font-size: 14px;
+    line-height: normal;
+    color: $gray;
+    img{
+         margin-right: 0.5625rem;
+    }
+}
+.courses__info__item-title-dark-green{
+    color: $green_mobi;
+}
+.courses__info__item-title-green{
+    color: $green_text;
+}
+.courses__bg{
+    background: url(../images/D7-4.png) no-repeat right bottom;
+    background-size: contain;
+}
+.courses__video-block-mobi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.75rem;
+}
+.courses__video__text-mobi{
+    padding-top: 1rem;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #8c9c9a;
+}
