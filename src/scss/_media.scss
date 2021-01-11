@@ -141,6 +141,10 @@
         margin-right: 2rem;
 
     }
+    .synergy__lesson__player__wrapper {
+        
+        width: 540px;
+    }
 }
 
 //!MEDIA: 767
@@ -219,8 +223,16 @@
     .process__information-block__item__img-mobi{
         padding-left: 0;
     }
+    .synergy__lesson__player__wrapper-mobile{
+        width: 340px;
+    }
+    .synergy__lesson__text-title{
+        font-size: 30px;
+    }
     
 }
-@media screen and (max-width: 369px) {}
+@media screen and (max-width: 369px) {
+    
+}
 
 //!MEDIA: 369 
